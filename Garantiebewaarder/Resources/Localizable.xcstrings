@@ -818,22 +818,6 @@
         }
       }
     },
-    "edit.warranty.footer": {
-      "localizations": {
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Veel producten hebben standaard twee jaar garantie; de werkelijke termijn hangt af van het product en je situatie. Algemene informatie, geen juridisch advies. Zie consuwijzer.nl voor de actuele regels."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Many products come with two years of warranty by default; the actual term depends on the product and your situation. General information, not legal advice. See consuwijzer.nl for current rules."
-          }
-        }
-      }
-    },
     "field.name": {
       "localizations": {
         "nl": {
@@ -1702,6 +1686,350 @@
           "stringUnit": {
             "state": "translated",
             "value": "Recognized from your receipt, but not certain. Please check this field."
+          }
+        }
+      }
+    },
+    "legal.generalInfo": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algemene informatie, geen juridisch advies."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General information, not legal advice."
+          }
+        }
+      }
+    },
+    "legal.defaultTerm": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veel producten hebben standaard twee jaar garantie; de werkelijke termijn hangt af van het product en je situatie. Dit is een instelling, geen juridische bewering. Algemene informatie, geen juridisch advies. Kijk voor de actuele regels op consuwijzer.nl."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Many products come with two years of warranty by default; the actual term depends on the product and your situation. This is a setting, not a legal claim. General information, not legal advice. See consuwijzer.nl for current rules."
+          }
+        }
+      }
+    },
+    "action.done": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klaar"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        }
+      }
+    },
+    "settings.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instellingen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        }
+      }
+    },
+    "settings.section.warranty": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Garantie"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warranty"
+          }
+        }
+      }
+    },
+    "settings.defaultTerm": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standaard garantieduur"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default warranty term"
+          }
+        }
+      }
+    },
+    "settings.section.reminders": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herinneringen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminders"
+          }
+        }
+      }
+    },
+    "settings.reminders": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herinneringen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminders"
+          }
+        }
+      }
+    },
+    "settings.leadDays": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herinner mij"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remind me"
+          }
+        }
+      }
+    },
+    "settings.secondReminder": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ook een week van tevoren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Also one week before"
+          }
+        }
+      }
+    },
+    "settings.reminders.footer": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meldingen worden alleen op je eigen toestel ingepland. Er wordt niets naar een server gestuurd."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminders are scheduled on your device only. Nothing is sent to a server."
+          }
+        }
+      }
+    },
+    "settings.reminders.denied": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meldingen staan uit voor deze app. Zet ze aan in de systeeminstellingen om herinneringen te krijgen. De app werkt ook zonder."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications are turned off for this app. Turn them on in system settings to get reminders. The app works without them."
+          }
+        }
+      }
+    },
+    "settings.openSystemSettings": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open systeeminstellingen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open system settings"
+          }
+        }
+      }
+    },
+    "primer.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herinneren aan je garantie?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remind you about your warranty?"
+          }
+        }
+      }
+    },
+    "primer.message": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We kunnen je een melding sturen voordat de garantie van een product afloopt, zodat je het nog kunt laten controleren. De meldingen komen alleen van je eigen toestel."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We can send you a reminder before a product's warranty ends, so you can still have it checked. Reminders come from your own device only."
+          }
+        }
+      }
+    },
+    "primer.accept": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ja, herinner mij"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yes, remind me"
+          }
+        }
+      }
+    },
+    "primer.decline": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niet nu"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not now"
+          }
+        }
+      }
+    },
+    "settings.daysBefore %lld": {
+      "localizations": {
+        "nl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dag van tevoren"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dagen van tevoren"
+                }
+              }
+            }
+          }
+        },
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld day before"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld days before"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "reminder.body.one %@": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De garantie op je %@ loopt morgen af. Werkt alles nog goed? Controleer het nu nog."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The warranty on your %@ ends tomorrow. Is everything still working? Check it now."
+          }
+        }
+      }
+    },
+    "reminder.body.other %@ %lld": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De garantie op je %1$@ loopt over %2$lld dagen af. Werkt alles nog goed? Controleer het nu nog."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The warranty on your %1$@ ends in %2$lld days. Is everything still working? Check it now."
           }
         }
       }

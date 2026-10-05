@@ -9,6 +9,8 @@ enum AppSettings {
         static let remindersEnabled = "remindersEnabled"
         static let iCloudSyncEnabled = "iCloudSyncEnabled"
         static let hasCompletedOnboarding = "hasCompletedOnboarding"
+        static let secondReminderEnabled = "secondReminderEnabled"
+        static let hasAskedNotificationPermission = "hasAskedNotificationPermission"
     }
 
     enum Default {
@@ -17,6 +19,8 @@ enum AppSettings {
         static let remindersEnabled = true
         static let iCloudSyncEnabled = false
         static let hasCompletedOnboarding = false
+        static let secondReminderEnabled = true
+        static let hasAskedNotificationPermission = false
     }
 
     /// Leest een waarde met terugval op de standaard (ook voor niet-view-code).

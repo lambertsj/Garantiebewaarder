@@ -82,3 +82,19 @@ final class CoreFlowUITests: XCTestCase {
         XCTAssertFalse(app.staticTexts["Wasmachine"].exists)
     }
 }
+
+@MainActor
+final class SettingsUITests: XCTestCase {
+    func testSettingsOpensWithReminderControls() throws {
+        let app = XCUIApplication()
+        app.launchArguments += ["-UITesting", "-AppleLanguages", "(nl)", "-AppleLocale", "nl_NL"]
+        app.launch()
+        let button = app.buttons["settingsButton"]
+        XCTAssertTrue(button.waitForExistence(timeout: 5))
+        button.tap()
+        XCTAssertTrue(app.switches["remindersToggle"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["Standaard garantieduur"].exists || app.buttons["Standaard garantieduur"].exists)
+        app.buttons["settingsDoneButton"].tap()
+        XCTAssertTrue(app.buttons["settingsButton"].waitForExistence(timeout: 5))
+    }
+}

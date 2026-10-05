@@ -3,6 +3,7 @@ import SwiftData
 
 @main
 struct GarantiebewaarderApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     private let container: ModelContainer
 
     init() {

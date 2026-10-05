@@ -218,7 +218,7 @@ struct ProductEditView: View {
         } header: {
             Text("edit.section.warranty")
         } footer: {
-            Text("edit.warranty.footer")
+            Text(LegalContent.defaultTermDisclaimer)
         }
     }
 

@@ -9,6 +9,12 @@ struct ProductListView: View {
     @State private var query = ProductListQuery()
     @State private var path = NavigationPath()
     @State private var showingAdd = false
+    @State private var showingSettings = false
+    @State private var primerPending = false
+    @State private var showingReminderPrimer = false
+    @AppStorage(AppSettings.Key.remindersEnabled) private var remindersEnabled = AppSettings.Default.remindersEnabled
+    @AppStorage(AppSettings.Key.hasAskedNotificationPermission) private var hasAsked = AppSettings.Default.hasAskedNotificationPermission
+    private let router = DeepLinkRouter.shared
 
     private var visible: [Product] {
         query.apply(to: products, leadDays: leadDays)
@@ -34,6 +40,10 @@ struct ProductListView: View {
                     Button { showingAdd = true } label: { Label("action.add", systemImage: "plus") }
                         .accessibilityIdentifier("addButton")
                 }
+                ToolbarItem(placement: .topBarLeading) {
+                    Button { showingSettings = true } label: { Label("settings.title", systemImage: "gearshape") }
+                        .accessibilityIdentifier("settingsButton")
+                }
                 if hasActiveProducts {
                     ToolbarItem(placement: .topBarLeading) { sortMenu }
                 }
@@ -41,10 +51,51 @@ struct ProductListView: View {
             .sheet(isPresented: $showingAdd) {
                 AddProductSheet { created in
                     path.append(created)
+                    primerPending = true
                 }
             }
+            .sheet(isPresented: $showingSettings) { SettingsView() }
+            .onChange(of: showingAdd) { _, isShowing in
+                if !isShowing, primerPending {
+                    primerPending = false
+                    Task { await offerReminderPrimerIfNeeded() }
+                }
+            }
+            .alert("primer.title", isPresented: $showingReminderPrimer) {
+                Button("primer.accept") { Task { await acceptReminders() } }
+                Button("primer.decline", role: .cancel) { hasAsked = true }
+            } message: {
+                Text("primer.message")
+            }
+            .onChange(of: router.pendingProductID, initial: true) { _, _ in openPendingDeepLink() }
         }
         .searchable(text: $query.search, prompt: Text("search.prompt"))
+        .syncsReminders()
+    }
+
+    // MARK: Herinneringen en deep links
+
+    /// Uitleg vooraf, pas bij het bewaren van het eerste product.
+    private func offerReminderPrimerIfNeeded() async {
+        guard remindersEnabled, !hasAsked, !ProcessInfo.processInfo.arguments.contains("-UITesting") else { return }
+        guard await Reminders.scheduler.authorizationStatus() == .notDetermined else { return }
+        showingReminderPrimer = true
+    }
+
+    private func acceptReminders() async {
+        hasAsked = true
+        await Reminders.scheduler.requestAuthorization()
+        await Reminders.syncNow(products: products)
+    }
+
+    private func openPendingDeepLink() {
+        guard let id = router.pendingProductID,
+              let product = products.first(where: { $0.id == id }) else { return }
+        _ = router.consume()
+        showingAdd = false
+        showingSettings = false
+        path = NavigationPath()
+        path.append(product)
     }
 
     private var emptyState: some View {
