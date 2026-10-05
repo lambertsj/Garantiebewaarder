@@ -1,0 +1,157 @@
+import SwiftUI
+import SwiftData
+import OSLog
+
+struct ProductDetailView: View {
+    let product: Product
+
+    @Environment(\.modelContext) private var modelContext
+    @Environment(\.dismiss) private var dismiss
+    @Environment(\.openURL) private var openURL
+    @AppStorage(AppSettings.Key.reminderLeadDays) private var leadDays = AppSettings.Default.reminderLeadDays
+
+    @State private var showingEdit = false
+    @State private var confirmingDelete = false
+    @State private var actionError: String?
+
+    private static let logger = Logger(subsystem: "com.jeroenlamberts.garantiebewaarder", category: "detail")
+
+    private var status: WarrantyStatus { product.status(leadDays: leadDays) }
+
+    var body: some View {
+        List {
+            headerSection
+            warrantySection
+            purchaseSection
+            dataSection
+            actionsSection
+        }
+        .navigationTitle(product.name)
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                Button("action.edit") { showingEdit = true }
+                    .accessibilityIdentifier("editButton")
+            }
+        }
+        .sheet(isPresented: $showingEdit) { ProductEditView(mode: .edit(product)) }
+        .confirmationDialog("delete.title", isPresented: $confirmingDelete, titleVisibility: .visible) {
+            Button("action.delete", role: .destructive, action: deleteProduct)
+                .accessibilityIdentifier("confirmDeleteButton")
+        } message: {
+            Text("delete.message")
+        }
+        .alert("error.save.title", isPresented: .constant(actionError != nil)) {
+            Button("action.ok") { actionError = nil }
+        } message: {
+            Text("error.save.message")
+        }
+        .accessibilityIdentifier("productDetail")
+    }
+
+    // MARK: Secties
+
+    private var headerSection: some View {
+        Section {
+            HStack(spacing: 16) {
+                ProductThumbnail(product: product, size: 72)
+                VStack(alignment: .leading, spacing: 6) {
+                    Text(product.name).font(.title3.bold()).accessibilityIdentifier("detailName")
+                    if !product.brand.isEmpty { Text(product.brand).foregroundStyle(.secondary) }
+                    StatusBadge(status: status)
+                    Text(product.remaining().text()).font(.subheadline).foregroundStyle(.secondary)
+                }
+            }
+            .accessibilityElement(children: .combine)
+        }
+    }
+
+    private var warrantySection: some View {
+        Section("detail.section.warranty") {
+            LabeledContent("field.endDate", value: product.warrantyEndDate.formatted(date: .long, time: .omitted))
+            LabeledContent("detail.source") { Text(product.warrantySource.title) }
+            if !product.extraCoverageNote.isEmpty {
+                LabeledContent("field.extraCoverage", value: product.extraCoverageNote)
+            }
+        }
+    }
+
+    private var purchaseSection: some View {
+        Section("detail.section.purchase") {
+            if !product.store.isEmpty { LabeledContent("field.store", value: product.store) }
+            LabeledContent("field.purchaseDate", value: product.purchaseDate.formatted(date: .long, time: .omitted))
+            if let price = product.price {
+                LabeledContent("field.price", value: price.formatted(.currency(code: "EUR")))
+            }
+        }
+    }
+
+    @ViewBuilder
+    private var dataSection: some View {
+        let link = ManualLink.url(from: product.manualURL)
+        if !product.serialNumber.isEmpty || !product.notes.isEmpty || link != nil {
+            Section("detail.section.data") {
+                if !product.serialNumber.isEmpty {
+                    LabeledContent("field.serialNumber", value: product.serialNumber)
+                }
+                if let link {
+                    // Opent pas na een tik van de gebruiker.
+                    Button { openURL(link) } label: {
+                        Label("detail.openManual", systemImage: "book")
+                    }
+                }
+                if !product.notes.isEmpty {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("field.notes").font(.caption).foregroundStyle(.secondary)
+                        Text(product.notes)
+                    }
+                }
+            }
+        }
+    }
+
+    private var actionsSection: some View {
+        Section {
+            Button(action: toggleArchive) {
+                Label(product.isArchived ? "action.unarchive" : "action.archive",
+                      systemImage: product.isArchived ? "tray.and.arrow.up" : "archivebox")
+            }
+            .accessibilityIdentifier("archiveButton")
+            Button(role: .destructive) { confirmingDelete = true } label: {
+                Label("action.delete", systemImage: "trash")
+            }
+            .accessibilityIdentifier("deleteButton")
+        }
+    }
+
+    // MARK: Acties
+
+    private func toggleArchive() {
+        product.isArchived.toggle()
+        product.updatedAt = Date()
+        persist()
+        if product.isArchived { dismiss() }
+    }
+
+    private func deleteProduct() {
+        modelContext.delete(product)
+        persist()
+        dismiss()
+    }
+
+    private func persist() {
+        do { try modelContext.save() } catch {
+            Self.logger.error("Opslaan mislukt: \(error.localizedDescription, privacy: .public)")
+            actionError = error.localizedDescription
+        }
+    }
+}
+
+#if DEBUG
+#Preview {
+    let container = PreviewData.container()
+    let product = (try? container.mainContext.fetch(FetchDescriptor<Product>()))?.first
+    return NavigationStack { if let product { ProductDetailView(product: product) } }
+        .modelContainer(container)
+}
+#endif
