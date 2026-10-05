@@ -2177,6 +2177,518 @@
           }
         }
       }
+    },
+    "settings.section.iCloud": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud-synchronisatie"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud sync"
+          }
+        }
+      }
+    },
+    "settings.iCloud": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchroniseer via iCloud"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync via iCloud"
+          }
+        }
+      }
+    },
+    "settings.iCloud.footer": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optioneel. Je gegevens gaan dan naar je eigen, privé iCloud-opslag, zodat ze ook op je andere toestellen staan. Wij hebben geen server en kunnen je gegevens niet zien. Een wijziging werkt na het opnieuw opstarten van de app."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optional. Your data then goes to your own private iCloud storage so it's also on your other devices. We have no server and can't see your data. A change takes effect after restarting the app."
+          }
+        }
+      }
+    },
+    "settings.iCloud.restartOn": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sluit de app helemaal af en open hem opnieuw om synchronisatie te starten."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fully close and reopen the app to start syncing."
+          }
+        }
+      }
+    },
+    "settings.iCloud.restartOff": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sluit de app helemaal af en open hem opnieuw om synchronisatie te stoppen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fully close and reopen the app to stop syncing."
+          }
+        }
+      }
+    },
+    "settings.iCloud.fellBack": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchronisatie kon niet starten. De app werkt gewoon lokaal door; controleer je iCloud-instellingen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syncing couldn't start. The app keeps working locally; check your iCloud settings."
+          }
+        }
+      }
+    },
+    "icloud.status.available": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud-account beschikbaar"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud account available"
+          }
+        }
+      }
+    },
+    "icloud.status.noAccount": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niet ingelogd bij iCloud. De app werkt lokaal door."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not signed in to iCloud. The app keeps working locally."
+          }
+        }
+      }
+    },
+    "icloud.status.restricted": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud is beperkt op dit toestel. De app werkt lokaal door."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud is restricted on this device. The app keeps working locally."
+          }
+        }
+      }
+    },
+    "icloud.status.unknown": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud-status onbekend"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud status unknown"
+          }
+        }
+      }
+    },
+    "settings.archived": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gearchiveerde producten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archived products"
+          }
+        }
+      }
+    },
+    "settings.deleteAll": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles verwijderen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete everything"
+          }
+        }
+      }
+    },
+    "deleteAll.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle producten en bijlagen verwijderen?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete all products and attachments?"
+          }
+        }
+      }
+    },
+    "deleteAll.message": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit kan niet ongedaan worden gemaakt. Maak eventueel eerst een export."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This can't be undone. Consider making an export first."
+          }
+        }
+      }
+    },
+    "deleteAll.continue": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ja, ga door"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yes, continue"
+          }
+        }
+      }
+    },
+    "deleteAll.final.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weet je het zeker?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Are you sure?"
+          }
+        }
+      }
+    },
+    "deleteAll.final.message": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Al je producten, bonnen en foto's worden definitief van dit toestel verwijderd."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All your products, receipts and photos will be permanently deleted from this device."
+          }
+        }
+      }
+    },
+    "deleteAll.final.messageSync": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Al je producten, bonnen en foto's worden definitief verwijderd, ook van je andere toestellen via iCloud."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All your products, receipts and photos will be permanently deleted, also from your other devices via iCloud."
+          }
+        }
+      }
+    },
+    "deleteAll.final.confirm": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwijder alles"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete everything"
+          }
+        }
+      }
+    },
+    "deleteAll.error.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwijderen mislukt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't delete"
+          }
+        }
+      }
+    },
+    "archived.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gearchiveerd"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archived"
+          }
+        }
+      }
+    },
+    "archived.empty.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geen gearchiveerde producten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No archived products"
+          }
+        }
+      }
+    },
+    "archived.empty.message": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Producten die je archiveert krijgen geen herinneringen meer en staan hier."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Products you archive no longer get reminders and appear here."
+          }
+        }
+      }
+    },
+    "onboarding.skip": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overslaan"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skip"
+          }
+        }
+      }
+    },
+    "onboarding.next": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verder"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        }
+      }
+    },
+    "onboarding.start": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aan de slag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get started"
+          }
+        }
+      }
+    },
+    "onboarding.1.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaar je bonnen op één plek"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep your receipts in one place"
+          }
+        }
+      }
+    },
+    "onboarding.1.message": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan een bon of kies een foto of PDF. De app leest de gegevens voor je en houdt bij wanneer de garantie afloopt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan a receipt or pick a photo or PDF. The app reads the details for you and tracks when the warranty ends."
+          }
+        }
+      }
+    },
+    "onboarding.2.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privé en gratis"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Private and free"
+          }
+        }
+      }
+    },
+    "onboarding.2.message": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je gegevens blijven op je eigen toestel. Geen account, geen advertenties, geen tracking. Als je wilt kun je later synchroniseren via je eigen iCloud."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your data stays on your own device. No account, no ads, no tracking. If you like, you can sync via your own iCloud later."
+          }
+        }
+      }
+    },
+    "onboarding.3.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herinneringen vóór je garantie afloopt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminders before your warranty ends"
+          }
+        }
+      }
+    },
+    "onboarding.3.message": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kies zelf hoeveel dagen van tevoren je een melding wilt. Zo kun je een product nog laten controleren. Meldingen zijn optioneel."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose how many days ahead you want a reminder, so you can still have a product checked. Reminders are optional."
+          }
+        }
+      }
     }
   }
 }

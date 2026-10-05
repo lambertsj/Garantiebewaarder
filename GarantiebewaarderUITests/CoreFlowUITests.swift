@@ -122,3 +122,28 @@ final class ReceiptRecognitionUITests: XCTestCase {
         XCTAssertEqual(app.staticTexts["detailName"].label, "Bosch wasmachine WAX32")
     }
 }
+
+@MainActor
+final class OnboardingUITests: XCTestCase {
+    func testOnboardingHasThreePagesAndCanBeSkipped() throws {
+        let app = XCUIApplication()
+        app.launchArguments += ["-UITesting", "-UITestingOnboarding", "-AppleLanguages", "(nl)", "-AppleLocale", "nl_NL"]
+        app.launch()
+        let next = app.buttons["onboardingNext"]
+        XCTAssertTrue(next.waitForExistence(timeout: 5))
+        next.tap(); next.tap()
+        XCTAssertEqual(next.label, "Aan de slag")
+        next.tap()
+        XCTAssertTrue(app.buttons["emptyAddButton"].waitForExistence(timeout: 5))
+    }
+
+    func testSkipGoesStraightToOverview() throws {
+        let app = XCUIApplication()
+        app.launchArguments += ["-UITesting", "-UITestingOnboarding", "-AppleLanguages", "(nl)", "-AppleLocale", "nl_NL"]
+        app.launch()
+        let skip = app.buttons["onboardingSkip"]
+        XCTAssertTrue(skip.waitForExistence(timeout: 5))
+        skip.tap()
+        XCTAssertTrue(app.buttons["emptyAddButton"].waitForExistence(timeout: 5))
+    }
+}

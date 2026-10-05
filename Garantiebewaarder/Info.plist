@@ -29,6 +29,10 @@
 	<false/>
 	<key>NSCameraUsageDescription</key>
 	<string>De camera wordt alleen gebruikt om bonnen en producten te fotograferen. Foto's blijven op je toestel (en in je eigen iCloud als je synchroniseren aanzet).</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
 	<key>UILaunchScreen</key>
 	<dict/>
 	<key>UISupportedInterfaceOrientations</key>

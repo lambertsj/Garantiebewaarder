@@ -18,6 +18,12 @@ struct SettingsView: View {
     @State private var exportItem: ShareItem?
     @State private var exportProgress: (done: Int, total: Int)?
     @State private var exportFailed = false
+    @Environment(\.modelContext) private var modelContext
+    @AppStorage(AppSettings.Key.iCloudSyncEnabled) private var iCloudSync = AppSettings.Default.iCloudSyncEnabled
+    @State private var iCloudStatus: ICloudStatus = .unknown
+    @State private var confirmingDeleteAll = false
+    @State private var finalDeleteConfirmation = false
+    @State private var deleteFailed = false
 
     private static let termChoices = [12, 24, 36, 48, 60]
     private static let leadChoices = [7, 14, 30, 60, 90]
@@ -27,7 +33,9 @@ struct SettingsView: View {
             Form {
                 warrantySection
                 remindersSection
+                iCloudSection
                 dataSection
+                deleteSection
             }
             .navigationTitle("settings.title")
             .navigationBarTitleDisplayMode(.inline)
@@ -41,6 +49,22 @@ struct SettingsView: View {
                 Button("action.ok") {}
             } message: {
                 Text("export.error.message")
+            }
+            .confirmationDialog("deleteAll.title", isPresented: $confirmingDeleteAll, titleVisibility: .visible) {
+                Button("deleteAll.continue", role: .destructive) { finalDeleteConfirmation = true }
+            } message: {
+                Text("deleteAll.message")
+            }
+            .alert("deleteAll.final.title", isPresented: $finalDeleteConfirmation) {
+                Button("deleteAll.final.confirm", role: .destructive, action: deleteEverything)
+                Button("action.cancel", role: .cancel) {}
+            } message: {
+                Text(iCloudSync ? "deleteAll.final.messageSync" : "deleteAll.final.message")
+            }
+            .alert("deleteAll.error.title", isPresented: $deleteFailed) {
+                Button("action.ok") {}
+            } message: {
+                Text("error.save.message")
             }
             .task { await refreshStatus() }
             .onChange(of: scenePhase) { _, phase in
@@ -158,6 +182,65 @@ struct SettingsView: View {
 
     private func refreshStatus() async {
         authStatus = await Reminders.scheduler.authorizationStatus()
+        iCloudStatus = await ICloudStatus.fetch()
+    }
+
+    // MARK: iCloud
+
+    private var iCloudSection: some View {
+        Section {
+            Toggle("settings.iCloud", isOn: $iCloudSync)
+                .accessibilityIdentifier("iCloudToggle")
+            Label(String(localized: iCloudStatus.title), systemImage: iCloudStatus.symbolName)
+                .font(.footnote)
+                .foregroundStyle(.secondary)
+            if let note = iCloudNote {
+                Label(note, systemImage: "arrow.clockwise")
+                    .font(.footnote)
+                    .accessibilityIdentifier("iCloudRestartNote")
+            }
+        } header: {
+            Text("settings.section.iCloud")
+        } footer: {
+            Text("settings.iCloud.footer")
+        }
+    }
+
+    /// Uitleg als de voorkeur afwijkt van wat er nu draait.
+    private var iCloudNote: LocalizedStringKey? {
+        let mode = PersistenceController.activeMode
+        switch (iCloudSync, mode) {
+        case (true, .local): return "settings.iCloud.restartOn"
+        case (false, .iCloud): return "settings.iCloud.restartOff"
+        case (true, .iCloudUnavailableUsingLocal): return "settings.iCloud.fellBack"
+        default: return nil
+        }
+    }
+
+    // MARK: Alles verwijderen
+
+    private var deleteSection: some View {
+        Section {
+            NavigationLink {
+                ArchivedProductsView()
+            } label: {
+                Label("settings.archived", systemImage: "archivebox")
+            }
+            .accessibilityIdentifier("archivedLink")
+            Button(role: .destructive) { confirmingDeleteAll = true } label: {
+                Label("settings.deleteAll", systemImage: "trash")
+            }
+            .accessibilityIdentifier("deleteAllButton")
+        }
+    }
+
+    private func deleteEverything() {
+        do {
+            try DataEraser.deleteEverything(in: modelContext)
+            Task { await Reminders.syncNow(products: []) }
+        } catch {
+            deleteFailed = true
+        }
     }
 }
 
