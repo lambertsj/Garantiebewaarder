@@ -36,6 +36,7 @@ targets:
       - Garantiebewaarder
     dependencies:
       - target: GarantiebewaarderShare
+      - target: GarantiebewaarderWidget
     entitlements:
       path: Garantiebewaarder/Garantiebewaarder.entitlements
       properties:
@@ -79,6 +80,10 @@ targets:
         ITSAppUsesNonExemptEncryption: false
         UIBackgroundModes:
           - remote-notification
+        CFBundleURLTypes:
+          - CFBundleURLName: com.jeroenlamberts.garantiebewaarder
+            CFBundleURLSchemes:
+              - garantiebewaarder
         NSCameraUsageDescription: >-
           De camera wordt alleen gebruikt om bonnen en producten te fotograferen.
           Foto's blijven op je toestel (en in je eigen iCloud als je synchroniseren aanzet).
@@ -120,6 +125,44 @@ targets:
               SUBQUERY(extensionItems, $e, SUBQUERY($e.attachments, $a,
               ANY $a.registeredTypeIdentifiers UTI-CONFORMS-TO "com.adobe.pdf"
               OR ANY $a.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image").@count >= 1).@count >= 1
+
+  GarantiebewaarderWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - GarantiebewaarderWidget
+      - path: Garantiebewaarder/Services/WarrantyCalculator.swift
+      - path: Garantiebewaarder/Models/WarrantyStatus.swift
+      - path: Garantiebewaarder/Shared/WarrantyRemaining+Text.swift
+      - path: Garantiebewaarder/Shared/AppGroup.swift
+      - path: Garantiebewaarder/Shared/AppSettings.swift
+      - path: Garantiebewaarder/Shared/WidgetSnapshot.swift
+      - path: Garantiebewaarder/Services/ReminderCandidate.swift
+      - path: Garantiebewaarder/Resources/Localizable.xcstrings
+    entitlements:
+      path: GarantiebewaarderWidget/GarantiebewaarderWidget.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.jeroenlamberts.garantiebewaarder
+    settings:
+      base:
+        PRODUCT_NAME: GarantiebewaarderWidget
+        PRODUCT_BUNDLE_IDENTIFIER: com.jeroenlamberts.garantiebewaarder.widget
+        MARKETING_VERSION: "0.1"
+        CURRENT_PROJECT_VERSION: "1"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks"
+        SWIFT_EMIT_LOC_STRINGS: YES
+        SKIP_INSTALL: YES
+    info:
+      path: GarantiebewaarderWidget/Info.plist
+      properties:
+        CFBundleDisplayName: Garantie
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleLocalizations: [nl, en]
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
 
   GarantiebewaarderTests:
     type: bundle.unit-test

@@ -8,6 +8,7 @@ struct ProductDetailView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
     @Environment(\.openURL) private var openURL
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
     @AppStorage(AppSettings.Key.reminderLeadDays) private var leadDays = AppSettings.Default.reminderLeadDays
 
     @State private var showingEdit = false
@@ -64,13 +65,16 @@ struct ProductDetailView: View {
 
     private var headerSection: some View {
         Section {
-            HStack(spacing: 16) {
+            // Bij de grootste tekstgroottes staat de tekst onder de afbeelding in plaats van ernaast.
+            let layout = dynamicTypeSize.isAccessibilitySize ? AnyLayout(VStackLayout(alignment: .leading, spacing: 12)) : AnyLayout(HStackLayout(spacing: 16))
+            layout {
                 ProductThumbnail(product: product, size: 72)
                 VStack(alignment: .leading, spacing: 6) {
-                    Text(product.name).font(.title3.bold()).accessibilityIdentifier("detailName")
-                    if !product.brand.isEmpty { Text(product.brand).foregroundStyle(.secondary) }
+                    Text(product.name).font(.title3.bold()).fixedSize(horizontal: false, vertical: true)
+                        .accessibilityIdentifier("detailName")
+                    if !product.brand.isEmpty { Text(product.brand).foregroundStyle(Theme.secondaryText) }
                     StatusBadge(status: status)
-                    Text(product.remaining().text()).font(.subheadline).foregroundStyle(.secondary)
+                    Text(product.remaining().text()).font(.subheadline).foregroundStyle(Theme.secondaryText)
                 }
             }
             .accessibilityElement(children: .combine)
@@ -121,7 +125,7 @@ struct ProductDetailView: View {
                 }
                 if !product.notes.isEmpty {
                     VStack(alignment: .leading, spacing: 4) {
-                        Text("field.notes").font(.caption).foregroundStyle(.secondary)
+                        Text("field.notes").font(.caption).foregroundStyle(Theme.secondaryText)
                         Text(product.notes)
                     }
                 }
@@ -131,6 +135,12 @@ struct ProductDetailView: View {
 
     private var actionsSection: some View {
         Section {
+            NavigationLink {
+                ClaimHelpView(product: product)
+            } label: {
+                Label("action.somethingWrong", systemImage: "wrench.and.screwdriver")
+            }
+            .accessibilityIdentifier("claimHelpLink")
             Button(action: toggleArchive) {
                 Label(product.isArchived ? "action.unarchive" : "action.archive",
                       systemImage: product.isArchived ? "tray.and.arrow.up" : "archivebox")

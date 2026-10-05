@@ -34,7 +34,7 @@ struct OnboardingView: View {
                             .foregroundStyle(.tint)
                             .accessibilityHidden(true)
                         Text(item.title).font(.title.bold()).multilineTextAlignment(.center)
-                        Text(item.message).font(.body).foregroundStyle(.secondary).multilineTextAlignment(.center)
+                        Text(item.message).font(.body).foregroundStyle(Theme.secondaryText).multilineTextAlignment(.center)
                     }
                     .padding(.horizontal, 32)
                     .tag(item.id)

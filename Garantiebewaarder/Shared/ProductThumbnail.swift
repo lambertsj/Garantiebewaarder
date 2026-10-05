@@ -13,7 +13,7 @@ struct ProductThumbnail: View {
             } else {
                 Image(systemName: product.category.symbolName)
                     .font(.system(size: size * 0.45))
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(Theme.secondaryText)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .background(.quaternary)
             }

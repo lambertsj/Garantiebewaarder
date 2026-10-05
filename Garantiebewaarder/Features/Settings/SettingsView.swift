@@ -145,7 +145,7 @@ struct SettingsView: View {
                 VStack(alignment: .leading, spacing: 8) {
                     Label("settings.reminders.denied", systemImage: "bell.slash")
                         .font(.footnote)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(Theme.secondaryText)
                     Button("settings.openSystemSettings") {
                         if let url = URL(string: UIApplication.openSettingsURLString) { openURL(url) }
                     }
@@ -193,7 +193,7 @@ struct SettingsView: View {
                 .accessibilityIdentifier("iCloudToggle")
             Label(String(localized: iCloudStatus.title), systemImage: iCloudStatus.symbolName)
                 .font(.footnote)
-                .foregroundStyle(.secondary)
+                .foregroundStyle(Theme.secondaryText)
             if let note = iCloudNote {
                 Label(note, systemImage: "arrow.clockwise")
                     .font(.footnote)
@@ -237,7 +237,10 @@ struct SettingsView: View {
     private func deleteEverything() {
         do {
             try DataEraser.deleteEverything(in: modelContext)
-            Task { await Reminders.syncNow(products: []) }
+            Task {
+                await Reminders.syncNow(products: [])
+                await SystemIntegration.update(products: [], leadDays: leadDays)
+            }
         } catch {
             deleteFailed = true
         }

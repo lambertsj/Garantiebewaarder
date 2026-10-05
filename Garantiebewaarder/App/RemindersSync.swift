@@ -43,6 +43,7 @@ struct ReminderSync: ViewModifier {
                 try? await Task.sleep(for: .milliseconds(300))
                 guard !Task.isCancelled else { return }
                 await Reminders.syncNow(products: products)
+                await SystemIntegration.update(products: products, leadDays: leadDays)
             }
             .onChange(of: scenePhase) { _, phase in
                 if phase == .active { activations += 1 }

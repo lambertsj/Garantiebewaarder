@@ -18,6 +18,7 @@ struct ProductListView: View {
     @Environment(\.scenePhase) private var scenePhase
     @State private var inboxBatch: InboxImporter.Batch?
     @State private var isLoadingInbox = false
+    @State private var didSeedForUITest = false
 
     private var visible: [Product] {
         query.apply(to: products, leadDays: leadDays)
@@ -92,7 +93,8 @@ struct ProductListView: View {
         guard !isLoadingInbox, inboxBatch == nil, !showingAdd else { return }
         #if DEBUG
         // UI-test: simuleert een bon waarvan de tekst al herkend is (zonder camera of OCR).
-        if ProcessInfo.processInfo.arguments.contains("-UITestingSeedReceipt") {
+        if ProcessInfo.processInfo.arguments.contains("-UITestingSeedReceipt"), !didSeedForUITest {
+            didSeedForUITest = true
             let text = "Coolblue\nFactuurdatum: 12 maart 2026\nBosch wasmachine WAX32   € 649,00\nTotaal incl. btw € 649,00"
             let item = PendingAttachment(kind: .receipt, fileType: "jpg", data: Data(), thumbnailData: nil, recognizedText: text)
             inboxBatch = InboxImporter.Batch(seed: AddProductSheet.Seed(attachments: [item]), files: [], skippedUnreadable: 0)

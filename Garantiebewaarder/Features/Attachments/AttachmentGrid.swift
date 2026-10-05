@@ -13,7 +13,7 @@ struct AttachmentGrid: View {
                     Button { selected = attachment } label: {
                         VStack(spacing: 4) {
                             AttachmentThumbnail(thumbnailData: attachment.thumbnailData, isPDF: attachment.fileType == "pdf", size: 88)
-                            Text(attachment.kind.title).font(.caption2).foregroundStyle(.secondary)
+                            Text(attachment.kind.title).font(.caption2).foregroundStyle(Theme.secondaryText)
                         }
                     }
                     .buttonStyle(.plain)
@@ -39,7 +39,7 @@ struct AttachmentThumbnail: View {
                 Image(uiImage: image).resizable().scaledToFill()
             } else {
                 Image(systemName: isPDF ? "doc.richtext" : "photo")
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(Theme.secondaryText)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .background(.quaternary)
             }

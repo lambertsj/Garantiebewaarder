@@ -134,7 +134,7 @@ private struct OptionRow: View {
             Image(systemName: symbol).font(.title2).frame(width: 36).foregroundStyle(.tint)
             VStack(alignment: .leading, spacing: 2) {
                 Text(title).foregroundStyle(.primary)
-                Text(detail).font(.footnote).foregroundStyle(.secondary)
+                Text(detail).font(.footnote).foregroundStyle(Theme.secondaryText)
             }
         }
         .contentShape(Rectangle())

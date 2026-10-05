@@ -2689,6 +2689,582 @@
           }
         }
       }
+    },
+    "action.somethingWrong": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er is iets mis"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something's wrong"
+          }
+        }
+      }
+    },
+    "claim.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mijn product is kapot, wat nu?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My product is broken, now what?"
+          }
+        }
+      }
+    },
+    "claim.steps.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stappenplan"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step by step"
+          }
+        }
+      }
+    },
+    "claim.step.accessibility %lld": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stap %lld"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step %lld"
+          }
+        }
+      }
+    },
+    "legal.claim.1.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Controleer of je nog garantie hebt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check whether you're still covered"
+          }
+        }
+      }
+    },
+    "legal.claim.1.detail": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kijk naar de einddatum in de app. Veel producten hebben standaard twee jaar garantie; de werkelijke termijn hangt af van het product en je situatie."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Look at the end date in the app. Many products come with two years of warranty by default; the actual term depends on the product and your situation."
+          }
+        }
+      }
+    },
+    "legal.claim.2.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verzamel je bon en bewijs"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gather your receipt and evidence"
+          }
+        }
+      }
+    },
+    "legal.claim.2.detail": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoek de bon of factuur erbij, maak foto's of een filmpje van het probleem en noteer het serienummer. Alles staat in de app."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find the receipt or invoice, take photos or a video of the problem and note the serial number. It's all in the app."
+          }
+        }
+      }
+    },
+    "legal.claim.3.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neem contact op met de verkoper"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contact the seller"
+          }
+        }
+      }
+    },
+    "legal.claim.3.detail": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begin meestal bij de winkel waar je het product kocht, en niet per se bij de fabrikant. Een e-mail laat zien wat je hebt gevraagd en wanneer."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usually start with the store where you bought the product, not necessarily the manufacturer. An email shows what you asked and when."
+          }
+        }
+      }
+    },
+    "legal.claim.4.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beschrijf de klacht en geef een redelijke termijn"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Describe the problem and allow a reasonable time"
+          }
+        }
+      }
+    },
+    "legal.claim.4.detail": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leg kort en duidelijk uit wat er mis is, wat je wilt (bijvoorbeeld herstel) en geef de verkoper een redelijke termijn om te reageren."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explain briefly and clearly what's wrong, what you'd like (for example a repair) and give the seller a reasonable time to respond."
+          }
+        }
+      }
+    },
+    "legal.claim.5.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weigert de verkoper? Zoek hulp"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seller refuses? Get help"
+          }
+        }
+      }
+    },
+    "legal.claim.5.detail": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Op ConsuWijzer vind je informatie over je mogelijkheden. Bij een geschil kan een geschillencommissie een optie zijn. Kijk daar voor de actuele regels."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ConsuWijzer has information about your options. In a dispute, a dispute committee may be an option. Check there for current rules."
+          }
+        }
+      }
+    },
+    "claim.mail.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klachtmail"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Complaint email"
+          }
+        }
+      }
+    },
+    "claim.mail.subjectField": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Onderwerp"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Subject"
+          }
+        }
+      }
+    },
+    "claim.mail.bodyField": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekst van de e-mail"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Email text"
+          }
+        }
+      }
+    },
+    "claim.mail.share": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deel of kopieer de tekst"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share or copy the text"
+          }
+        }
+      }
+    },
+    "claim.mail.openMail": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in Mail"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in Mail"
+          }
+        }
+      }
+    },
+    "claim.mail.footer": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pas de tekst aan voordat je hem verstuurt. De app verstuurt zelf niets. Voeg de bon toe als bijlage via het delen van het product."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit the text before sending. The app never sends anything itself. Attach the receipt by sharing the product."
+          }
+        }
+      }
+    },
+    "claim.officialSource %@": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open %@"
+          }
+        }
+      }
+    },
+    "claim.officialSource.footer": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algemene informatie, geen juridisch advies. De actuele regels staan bij ConsuWijzer."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General information, not legal advice. Current rules are at ConsuWijzer."
+          }
+        }
+      }
+    },
+    "claim.mail.subject %@ %@": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klacht over %1$@, gekocht op %2$@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Complaint about %1$@, bought on %2$@"
+          }
+        }
+      }
+    },
+    "claim.mail.greeting": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beste medewerker,"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dear sir or madam,"
+          }
+        }
+      }
+    },
+    "claim.mail.intro %@ %@ %@": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Op %1$@ heb ik bij %2$@ het volgende product gekocht: %3$@."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On %1$@ I bought the following product from %2$@: %3$@."
+          }
+        }
+      }
+    },
+    "claim.mail.intro.noStore %@ %@": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Op %1$@ heb ik het volgende product gekocht: %2$@."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On %1$@ I bought the following product: %2$@."
+          }
+        }
+      }
+    },
+    "claim.mail.price %@": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aankoopbedrag: %@."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purchase price: %@."
+          }
+        }
+      }
+    },
+    "claim.mail.serial %@": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serienummer: %@."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serial number: %@."
+          }
+        }
+      }
+    },
+    "claim.mail.problem": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helaas is er een probleem met dit product: [beschrijf hier wat er mis is en sinds wanneer]."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unfortunately there's a problem with this product: [describe here what's wrong and since when]."
+          }
+        }
+      }
+    },
+    "claim.mail.request": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ik wil je vragen hier naar te kijken en mij binnen een redelijke termijn te laten weten hoe we dit oplossen. De bon heb ik bij de hand en stuur ik graag mee."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I'd like to ask you to look into this and let me know within a reasonable time how we can resolve it. I have the receipt at hand and am happy to send it."
+          }
+        }
+      }
+    },
+    "claim.mail.closing": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Met vriendelijke groet,\n[je naam]"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kind regards,\n[your name]"
+          }
+        }
+      }
+    },
+    "widget.name": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eerstvolgende garantie"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next warranty"
+          }
+        }
+      }
+    },
+    "widget.description": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toont welke garantie het eerst afloopt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shows which warranty ends first."
+          }
+        }
+      }
+    },
+    "widget.next": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eerstvolgende garantie"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next warranty to end"
+          }
+        }
+      }
+    },
+    "widget.empty": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geen producten met lopende garantie"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No products with active warranty"
+          }
+        }
+      }
+    },
+    "spotlight.until %@": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Garantie tot %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warranty until %@"
+          }
+        }
+      }
     }
   }
 }

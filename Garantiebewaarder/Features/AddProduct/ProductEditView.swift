@@ -121,12 +121,14 @@ struct ProductEditView: View {
             Section {
                 Label("recognition.banner", systemImage: "text.viewfinder")
                     .font(.subheadline)
+                    .fixedSize(horizontal: false, vertical: true)
                     .accessibilityIdentifier("recognitionBanner")
             }
         } else if suggestions.recognitionFoundNothing {
             Section {
                 Label("recognition.failed", systemImage: "info.circle")
                     .font(.subheadline)
+                    .fixedSize(horizontal: false, vertical: true)
                     .accessibilityIdentifier("recognitionFailedBanner")
             }
         }
@@ -137,7 +139,7 @@ struct ProductEditView: View {
         let others = suggestions.nameCandidates.filter { $0 != draft.name }
         if !others.isEmpty {
             VStack(alignment: .leading, spacing: 6) {
-                Text("recognition.otherNames").font(.caption).foregroundStyle(.secondary)
+                Text("recognition.otherNames").font(.caption).foregroundStyle(Theme.secondaryText)
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack {
                         ForEach(others, id: \.self) { candidate in
@@ -157,7 +159,8 @@ struct ProductEditView: View {
 
     private var productSection: some View {
         Section("edit.section.product") {
-            TextField("field.name", text: $draft.name)
+            TextField("field.name", text: $draft.name, axis: .vertical)
+                .lineLimit(1...3)
                 .textInputAutocapitalization(.sentences)
                 .accessibilityIdentifier("nameField")
                 .recognized(highlight(.name, unchanged: draft.name == initialDraft.name))

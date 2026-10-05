@@ -23,4 +23,21 @@ enum LegalContent {
     /// TODO(user): controleer of deze URL en naam nog actueel zijn
     static let officialSourceName = "ConsuWijzer"
     static let officialSourceURL = URL(string: "https://www.consuwijzer.nl")
+
+    /// Stappenplan in de claimhulp. Bewust algemeen gehouden: geen termijnen of rechten genoemd.
+    /// TODO(user): controleer elke stap (vooral 3 t/m 5) voor release tegen ConsuWijzer.
+    struct ClaimStep: Identifiable {
+        let number: Int
+        let title: LocalizedStringResource
+        let detail: LocalizedStringResource
+        var id: Int { number }
+    }
+
+    static let claimSteps: [ClaimStep] = [
+        ClaimStep(number: 1, title: "legal.claim.1.title", detail: "legal.claim.1.detail"),
+        ClaimStep(number: 2, title: "legal.claim.2.title", detail: "legal.claim.2.detail"),
+        ClaimStep(number: 3, title: "legal.claim.3.title", detail: "legal.claim.3.detail"),
+        ClaimStep(number: 4, title: "legal.claim.4.title", detail: "legal.claim.4.detail"),
+        ClaimStep(number: 5, title: "legal.claim.5.title", detail: "legal.claim.5.detail"),
+    ]
 }

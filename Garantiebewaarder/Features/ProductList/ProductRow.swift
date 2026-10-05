@@ -10,12 +10,12 @@ struct ProductRow: View {
             VStack(alignment: .leading, spacing: 3) {
                 Text(product.name).font(.headline).lineLimit(2)
                 if !product.store.isEmpty {
-                    Text(product.store).font(.subheadline).foregroundStyle(.secondary).lineLimit(1)
+                    Text(product.store).font(.subheadline).foregroundStyle(Theme.secondaryText).lineLimit(1)
                 }
                 HStack(spacing: 6) {
                     StatusBadge(status: status)
                     Text(product.remaining().text())
-                        .font(.caption).foregroundStyle(.secondary)
+                        .font(.caption).foregroundStyle(Theme.secondaryText)
                 }
             }
         }

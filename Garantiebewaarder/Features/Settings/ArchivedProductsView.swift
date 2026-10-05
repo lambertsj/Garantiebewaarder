@@ -21,7 +21,7 @@ struct ArchivedProductsView: View {
                             VStack(alignment: .leading, spacing: 2) {
                                 Text(product.name).font(.headline)
                                 Text(product.warrantyEndDate.formatted(date: .long, time: .omitted))
-                                    .font(.caption).foregroundStyle(.secondary)
+                                    .font(.caption).foregroundStyle(Theme.secondaryText)
                             }
                         }
                     }
