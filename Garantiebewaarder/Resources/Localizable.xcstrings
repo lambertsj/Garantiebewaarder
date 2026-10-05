@@ -1471,13 +1471,13 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Bezig met verwerken…"
+            "value": "Bon wordt gelezen…"
           }
         },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Processing…"
+            "value": "Reading receipt…"
           }
         }
       }
@@ -1622,6 +1622,86 @@
           "stringUnit": {
             "state": "translated",
             "value": "This file can't be shown"
+          }
+        }
+      }
+    },
+    "recognition.banner": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herkend van je bon (gemarkeerd). Controleer de gegevens en pas aan waar nodig; er wordt niets bewaard voordat jij op Bewaar tikt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recognized from your receipt (highlighted). Check the details and adjust where needed; nothing is saved until you tap Save."
+          }
+        }
+      }
+    },
+    "recognition.failed": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We konden geen tekst op je bon herkennen. Vul de gegevens zelf in; de bon wordt wel bewaard."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We couldn't recognize any text on your receipt. Please fill in the details yourself; the receipt will still be saved."
+          }
+        }
+      }
+    },
+    "recognition.otherNames": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Andere mogelijke namen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Other possible names"
+          }
+        }
+      }
+    },
+    "recognition.hint": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herkend van je bon"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recognized from your receipt"
+          }
+        }
+      }
+    },
+    "recognition.hint.low": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herkend van je bon, maar niet zeker. Controleer dit veld."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recognized from your receipt, but not certain. Please check this field."
           }
         }
       }

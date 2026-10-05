@@ -74,3 +74,42 @@ struct ProductDraftTests {
         #expect(ManualLink.url(from: "") == nil)
     }
 }
+
+@MainActor
+@Suite("Voorstel uit bon")
+struct ReceiptSuggestionTests {
+    private func receipt() -> ParsedReceipt {
+        ParsedReceipt(
+            storeName: ParsedField(value: "Coolblue", confidence: .high),
+            purchaseDate: ParsedField(value: day(2026, 3, 12), confidence: .medium),
+            totalAmount: ParsedField(value: Decimal(string: "649.00")!, confidence: .low),
+            productNameCandidates: ["Bosch wasmachine", "Verlengsnoer"]
+        )
+    }
+
+    @Test func draftIsPrefilledButNotSaved() {
+        var draft = ProductDraft(defaultMonths: 24, now: day(2026, 5, 1), calendar: cal)
+        draft.apply(receipt: receipt(), calendar: cal)
+        #expect(draft.name == "Bosch wasmachine")
+        #expect(draft.store == "Coolblue")
+        #expect(draft.purchaseDate == day(2026, 3, 12))
+        #expect(draft.price == Decimal(string: "649.00"))
+        #expect(draft.endDate(calendar: cal) == day(2028, 3, 12))
+    }
+
+    @Test func suggestionsCarryConfidencePerField() {
+        let s = ReceiptSuggestions(receipt: receipt(), hadReceiptAttachment: true)
+        #expect(s.confidence[.store] == .high)
+        #expect(s.confidence[.purchaseDate] == .medium)
+        #expect(s.confidence[.price] == .low)
+        #expect(s.nameCandidates.count == 2)
+        #expect(!s.recognitionFoundNothing)
+    }
+
+    @Test func emptyRecognitionWithReceiptIsReportedForFriendlyFallback() {
+        let s = ReceiptSuggestions(receipt: ParsedReceipt(), hadReceiptAttachment: true)
+        #expect(s.recognitionFoundNothing)
+        #expect(!s.hasRecognizedFields)
+        #expect(!ReceiptSuggestions(receipt: ParsedReceipt(), hadReceiptAttachment: false).recognitionFoundNothing)
+    }
+}

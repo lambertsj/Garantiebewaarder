@@ -8,6 +8,23 @@ struct AddProductSheet: View {
     struct Seed: Hashable, Identifiable {
         let id = UUID()
         var attachments: [PendingAttachment] = []
+        var receipt = ParsedReceipt()
+
+        init() {}
+
+        /// Bouwt het startpunt uit verwerkte bijlagen, inclusief het voorstel uit de bontekst.
+        init(attachments: [PendingAttachment]) {
+            self.attachments = attachments
+            let lines = attachments
+                .filter { $0.kind == .receipt }
+                .flatMap { $0.recognizedText.split(whereSeparator: \.isNewline).map(String.init) }
+            receipt = ReceiptParser.parse(lines: lines)
+        }
+
+        var hasReceiptAttachment: Bool { attachments.contains { $0.kind == .receipt } }
+
+        static func == (l: Self, r: Self) -> Bool { l.id == r.id }
+        func hash(into hasher: inout Hasher) { hasher.combine(id) }
     }
 
     var onSaved: (Product) -> Void
@@ -58,7 +75,8 @@ struct AddProductSheet: View {
                 }
             }
             .navigationDestination(item: $seed) { seed in
-                ProductEditView(mode: .create, initialAttachments: seed.attachments, onSaved: onSaved, close: { dismiss() })
+                ProductEditView(mode: .create, initialAttachments: seed.attachments, receipt: seed.receipt,
+                                hadReceiptAttachment: seed.hasReceiptAttachment, onSaved: onSaved, close: { dismiss() })
             }
             .photosPicker(isPresented: $showingPhotoPicker, selection: $photoSelection, maxSelectionCount: 10, matching: .images)
             .onChange(of: photoSelection) { _, items in

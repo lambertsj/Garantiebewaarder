@@ -13,6 +13,7 @@
 		094707724361F47D4A2C1812 /* ProductListQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C536CBD67718ACD9C1FC43 /* ProductListQuery.swift */; };
 		0FCB5F4C29062C8979BF0E98 /* AddProductSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBAA7F5D3123847062A7F0C /* AddProductSheet.swift */; };
 		11A45C9A95855A5F060FB0FC /* AttachmentProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C34437FAB2B2B3672C0970 /* AttachmentProcessorTests.swift */; };
+		11E0F6C61E09A26F92630B04 /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B340082018F00022C7215 /* OCRService.swift */; };
 		189DC04B9A4AEE7177D93FA3 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A79EF4D8A6F9207D6E9795 /* PreviewData.swift */; };
 		18D2CFF432A4A56DA1988A8F /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2D99E821B238B91A416469 /* ProductDetailView.swift */; };
 		26DCD5A250D6B6DBD977D7E8 /* AttachmentsEditorSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FF8D65A45C73C245E73C5 /* AttachmentsEditorSection.swift */; };
@@ -35,6 +36,10 @@
 		7E8E0E23A930C88B3CD9B04F /* WarrantyStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DCA40339ACB5161E3B9EC1 /* WarrantyStatus.swift */; };
 		9242DF307BE8628654EEA442 /* ProductEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63CCCA0DB90885A12E16445 /* ProductEditView.swift */; };
 		9350F461356F855316FE8784 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E7D096E0D95B6C50C753A580 /* PrivacyInfo.xcprivacy */; };
+		AD390EA79A10B8A8912A613F /* ReceiptSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C0247101ADC320D8ABE97 /* ReceiptSuggestions.swift */; };
+		B45A7ED383482510BA3C95E8 /* ReceiptParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFD9BE08DAE81D5E1BC3791 /* ReceiptParserTests.swift */; };
+		B88A5321240F0E59DD0C2E19 /* ReceiptParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71D89BF5FFB6B796E951F66 /* ReceiptParser.swift */; };
+		BEF393C793C70E8404A912FB /* OCRServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786486FA1FEA803522C2F9D /* OCRServiceTests.swift */; };
 		C383D30CB3A23DDB84566BEA /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84C94A514B2417C3CB01CD /* AppSettings.swift */; };
 		CF51F70A22CDD568BAC96950 /* ProductListQueryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6C82F8EAFE13BAE3C0BAA /* ProductListQueryTests.swift */; };
 		D010CEFFF6D79CDBB7467014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0323D327AC045527DAA827E3 /* Assets.xcassets */; };
@@ -73,6 +78,7 @@
 		29281219D01F7A52E9D6BDA3 /* Garantiebewaarder.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Garantiebewaarder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBAA7F5D3123847062A7F0C /* AddProductSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductSheet.swift; sourceTree = "<group>"; };
 		2C54A35E5F6B3F1F235EB49C /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		2FFD9BE08DAE81D5E1BC3791 /* ReceiptParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptParserTests.swift; sourceTree = "<group>"; };
 		37A79EF4D8A6F9207D6E9795 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		3F6F57B94C47DEA9F7D44F54 /* WarrantyCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyCalculatorTests.swift; sourceTree = "<group>"; };
 		42C34437FAB2B2B3672C0970 /* AttachmentProcessorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentProcessorTests.swift; sourceTree = "<group>"; };
@@ -91,9 +97,13 @@
 		A38E821B16A814BA68257B4D /* DocumentScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScannerView.swift; sourceTree = "<group>"; };
 		AA4712DE9B34B33D9C1142BE /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 		ABE3665608E7208483C09145 /* WarrantyCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyCalculator.swift; sourceTree = "<group>"; };
+		B39C0247101ADC320D8ABE97 /* ReceiptSuggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptSuggestions.swift; sourceTree = "<group>"; };
 		B769A0A280413544F68576FD /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		B8DCA40339ACB5161E3B9EC1 /* WarrantyStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyStatus.swift; sourceTree = "<group>"; };
 		BC2FF31C906D5AC6F3D067DD /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		C21B340082018F00022C7215 /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+		D71D89BF5FFB6B796E951F66 /* ReceiptParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptParser.swift; sourceTree = "<group>"; };
+		D786486FA1FEA803522C2F9D /* OCRServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRServiceTests.swift; sourceTree = "<group>"; };
 		D7C536CBD67718ACD9C1FC43 /* ProductListQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListQuery.swift; sourceTree = "<group>"; };
 		DED6548CEAA8ABB22CBA4B11 /* GarantiebewaarderTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GarantiebewaarderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FB73FFB266D802077BA864 /* AttachmentViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentViewer.swift; sourceTree = "<group>"; };
@@ -154,8 +164,11 @@
 			isa = PBXGroup;
 			children = (
 				008DA5606F72406016A65B2B /* AttachmentProcessor.swift */,
+				C21B340082018F00022C7215 /* OCRService.swift */,
 				81438795A7E0A2FEAA0E3AC6 /* ProductDraft.swift */,
 				D7C536CBD67718ACD9C1FC43 /* ProductListQuery.swift */,
+				D71D89BF5FFB6B796E951F66 /* ReceiptParser.swift */,
+				B39C0247101ADC320D8ABE97 /* ReceiptSuggestions.swift */,
 				ABE3665608E7208483C09145 /* WarrantyCalculator.swift */,
 			);
 			path = Services;
@@ -256,9 +269,11 @@
 			isa = PBXGroup;
 			children = (
 				42C34437FAB2B2B3672C0970 /* AttachmentProcessorTests.swift */,
+				D786486FA1FEA803522C2F9D /* OCRServiceTests.swift */,
 				63B7BCF1938172D41039C94E /* ProductDraftTests.swift */,
 				09F6C82F8EAFE13BAE3C0BAA /* ProductListQueryTests.swift */,
 				821E085B3AC0F2650FDC9DD0 /* ProductModelTests.swift */,
+				2FFD9BE08DAE81D5E1BC3791 /* ReceiptParserTests.swift */,
 				3F6F57B94C47DEA9F7D44F54 /* WarrantyCalculatorTests.swift */,
 			);
 			path = GarantiebewaarderTests;
@@ -394,9 +409,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A45C9A95855A5F060FB0FC /* AttachmentProcessorTests.swift in Sources */,
+				BEF393C793C70E8404A912FB /* OCRServiceTests.swift in Sources */,
 				3AA1206BB67CCBC23B2554E7 /* ProductDraftTests.swift in Sources */,
 				CF51F70A22CDD568BAC96950 /* ProductListQueryTests.swift in Sources */,
 				69E5469C432C66550B15B1A6 /* ProductModelTests.swift in Sources */,
+				B45A7ED383482510BA3C95E8 /* ReceiptParserTests.swift in Sources */,
 				42DD62FDB7808F96A7DF66C8 /* WarrantyCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +435,7 @@
 				32C3B8A6A680C7E9E2B8B488 /* Enums.swift in Sources */,
 				02125905C4E2BEB385A80B06 /* GarantiebewaarderApp.swift in Sources */,
 				274A24C0315A950382731957 /* Money.swift in Sources */,
+				11E0F6C61E09A26F92630B04 /* OCRService.swift in Sources */,
 				DD50C2A2BCBF71E43FA25D04 /* PersistenceController.swift in Sources */,
 				189DC04B9A4AEE7177D93FA3 /* PreviewData.swift in Sources */,
 				0504C976AB961CAA52A5C935 /* Product.swift in Sources */,
@@ -428,6 +446,8 @@
 				4693C5409E1E788371C59CC6 /* ProductListView.swift in Sources */,
 				5C8B5424D10FECECF32D5356 /* ProductRow.swift in Sources */,
 				F7943981F62B7DF939B27AB3 /* ProductThumbnail.swift in Sources */,
+				B88A5321240F0E59DD0C2E19 /* ReceiptParser.swift in Sources */,
+				AD390EA79A10B8A8912A613F /* ReceiptSuggestions.swift in Sources */,
 				62DFCF495AF7307C3F4EBC04 /* Theme.swift in Sources */,
 				08A2C6F1BAFCB5E19FDA09D5 /* WarrantyCalculator.swift in Sources */,
 				FEBFB630EB8DC37D1DAAFB87 /* WarrantyRemaining+Text.swift in Sources */,

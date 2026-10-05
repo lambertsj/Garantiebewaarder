@@ -34,7 +34,7 @@ final class AttachmentImportController {
                 error = .unreadable
                 continue
             }
-            if let pending = await Self.run({ AttachmentProcessor.process(data: data, kind: kind) }) {
+            if let pending = await Self.run({ Self.recognized(AttachmentProcessor.process(data: data, kind: kind)) }) {
                 result.append(pending)
             } else {
                 error = .unreadable
@@ -58,7 +58,7 @@ final class AttachmentImportController {
                 error = .tooLarge
                 continue
             }
-            if let pending = await Self.run({ AttachmentProcessor.process(data: data, kind: kind) }) {
+            if let pending = await Self.run({ Self.recognized(AttachmentProcessor.process(data: data, kind: kind)) }) {
                 result.append(pending)
             } else {
                 error = .unreadable
@@ -72,13 +72,21 @@ final class AttachmentImportController {
         defer { isProcessing = false }
         var result: [PendingAttachment] = []
         for image in images {
-            if let pending = await Self.run({ AttachmentProcessor.processImage(image, kind: kind) }) {
+            if let pending = await Self.run({ Self.recognized(AttachmentProcessor.processImage(image, kind: kind)) }) {
                 result.append(pending)
             } else {
                 error = .unreadable
             }
         }
         return result
+    }
+
+    /// Voert tekstherkenning uit op bonnen (niet op productfoto's), zodat de tekst
+    /// doorzoekbaar is en de parser een voorstel kan doen.
+    private nonisolated static func recognized(_ pending: PendingAttachment?) -> PendingAttachment? {
+        guard var pending, pending.kind == .receipt else { return pending }
+        pending.recognizedText = OCRService.recognizeLines(in: pending).joined(separator: "\n")
+        return pending
     }
 
     private static func run<T: Sendable>(_ work: @escaping @Sendable () -> T) async -> T {
