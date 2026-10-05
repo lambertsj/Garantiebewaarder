@@ -1,0 +1,14 @@
+{
+  "sourceLanguage" : "nl",
+  "version" : "1.0",
+  "strings" : {
+    "share.working" : { "localizations" : { "nl" : { "stringUnit" : { "state" : "translated", "value" : "Bezig met bewaren…" } }, "en" : { "stringUnit" : { "state" : "translated", "value" : "Saving…" } } } },
+    "share.saved" : { "localizations" : { "nl" : { "stringUnit" : { "state" : "translated", "value" : "Bewaard" } }, "en" : { "stringUnit" : { "state" : "translated", "value" : "Saved" } } } },
+    "share.openApp" : { "localizations" : { "nl" : { "stringUnit" : { "state" : "translated", "value" : "Open de app om er een product van te maken." } }, "en" : { "stringUnit" : { "state" : "translated", "value" : "Open the app to turn it into a product." } } } },
+    "share.done" : { "localizations" : { "nl" : { "stringUnit" : { "state" : "translated", "value" : "Klaar" } }, "en" : { "stringUnit" : { "state" : "translated", "value" : "Done" } } } },
+    "share.error.unavailable" : { "localizations" : { "nl" : { "stringUnit" : { "state" : "translated", "value" : "De gedeelde opslag is niet beschikbaar. Open eerst de app en probeer het opnieuw." } }, "en" : { "stringUnit" : { "state" : "translated", "value" : "Shared storage isn't available. Open the app first and try again." } } } },
+    "share.error.unsupported" : { "localizations" : { "nl" : { "stringUnit" : { "state" : "translated", "value" : "Dit type bestand kan niet worden bewaard. Kies een afbeelding of PDF." } }, "en" : { "stringUnit" : { "state" : "translated", "value" : "This file type can't be saved. Choose an image or PDF." } } } },
+    "share.error.unreadable" : { "localizations" : { "nl" : { "stringUnit" : { "state" : "translated", "value" : "Dit bestand kon niet worden gelezen." } }, "en" : { "stringUnit" : { "state" : "translated", "value" : "This file couldn't be read." } } } },
+    "share.error.tooLarge" : { "localizations" : { "nl" : { "stringUnit" : { "state" : "translated", "value" : "Dit bestand is te groot." } }, "en" : { "stringUnit" : { "state" : "translated", "value" : "This file is too large." } } } }
+  }
+}

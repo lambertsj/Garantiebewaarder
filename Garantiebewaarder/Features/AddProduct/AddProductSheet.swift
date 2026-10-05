@@ -37,6 +37,11 @@ struct AddProductSheet: View {
     @State private var showingPhotoPicker = false
     @State private var showingScanner = false
 
+    init(initialSeed: Seed? = nil, onSaved: @escaping (Product) -> Void) {
+        self.onSaved = onSaved
+        _seed = State(initialValue: initialSeed)
+    }
+
     var body: some View {
         NavigationStack {
             List {

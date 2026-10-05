@@ -15,6 +15,9 @@ struct ProductListView: View {
     @AppStorage(AppSettings.Key.remindersEnabled) private var remindersEnabled = AppSettings.Default.remindersEnabled
     @AppStorage(AppSettings.Key.hasAskedNotificationPermission) private var hasAsked = AppSettings.Default.hasAskedNotificationPermission
     private let router = DeepLinkRouter.shared
+    @Environment(\.scenePhase) private var scenePhase
+    @State private var inboxBatch: InboxImporter.Batch?
+    @State private var isLoadingInbox = false
 
     private var visible: [Product] {
         query.apply(to: products, leadDays: leadDays)
@@ -54,6 +57,16 @@ struct ProductListView: View {
                     primerPending = true
                 }
             }
+            .sheet(item: Binding(get: { inboxBatch.map(InboxSheetItem.init) }, set: { if $0 == nil { finishInbox() } })) { item in
+                AddProductSheet(initialSeed: item.batch.seed) { created in
+                    path.append(created)
+                    primerPending = true
+                }
+            }
+            .task { await importInbox() }
+            .onChange(of: scenePhase) { _, phase in
+                if phase == .active { Task { await importInbox() } }
+            }
             .sheet(isPresented: $showingSettings) { SettingsView() }
             .onChange(of: showingAdd) { _, isShowing in
                 if !isShowing, primerPending {
@@ -71,6 +84,29 @@ struct ProductListView: View {
         }
         .searchable(text: $query.search, prompt: Text("search.prompt"))
         .syncsReminders()
+    }
+
+    // MARK: Inbox (Share Extension)
+
+    private func importInbox() async {
+        guard !isLoadingInbox, inboxBatch == nil, !showingAdd else { return }
+        #if DEBUG
+        // UI-test: simuleert een bon waarvan de tekst al herkend is (zonder camera of OCR).
+        if ProcessInfo.processInfo.arguments.contains("-UITestingSeedReceipt") {
+            let text = "Coolblue\nFactuurdatum: 12 maart 2026\nBosch wasmachine WAX32   € 649,00\nTotaal incl. btw € 649,00"
+            let item = PendingAttachment(kind: .receipt, fileType: "jpg", data: Data(), thumbnailData: nil, recognizedText: text)
+            inboxBatch = InboxImporter.Batch(seed: AddProductSheet.Seed(attachments: [item]), files: [], skippedUnreadable: 0)
+            return
+        }
+        #endif
+        isLoadingInbox = true
+        defer { isLoadingInbox = false }
+        if let batch = await InboxImporter.loadPending() { inboxBatch = batch }
+    }
+
+    private func finishInbox() {
+        if let inboxBatch { InboxImporter.finish(inboxBatch) }
+        inboxBatch = nil
     }
 
     // MARK: Herinneringen en deep links
@@ -175,6 +211,11 @@ struct ProductListView: View {
         }
         .accessibilityIdentifier("sortMenu")
     }
+}
+
+private struct InboxSheetItem: Identifiable {
+    let batch: InboxImporter.Batch
+    var id: UUID { batch.seed.id }
 }
 
 #if DEBUG

@@ -15,6 +15,9 @@ struct SettingsView: View {
     @AppStorage(AppSettings.Key.hasAskedNotificationPermission) private var hasAsked = AppSettings.Default.hasAskedNotificationPermission
 
     @State private var authStatus: UNAuthorizationStatus = .notDetermined
+    @State private var exportItem: ShareItem?
+    @State private var exportProgress: (done: Int, total: Int)?
+    @State private var exportFailed = false
 
     private static let termChoices = [12, 24, 36, 48, 60]
     private static let leadChoices = [7, 14, 30, 60, 90]
@@ -24,6 +27,7 @@ struct SettingsView: View {
             Form {
                 warrantySection
                 remindersSection
+                dataSection
             }
             .navigationTitle("settings.title")
             .navigationBarTitleDisplayMode(.inline)
@@ -31,6 +35,12 @@ struct SettingsView: View {
                 ToolbarItem(placement: .confirmationAction) {
                     Button("action.done") { dismiss() }.accessibilityIdentifier("settingsDoneButton")
                 }
+            }
+            .sheet(item: $exportItem) { ShareSheet(url: $0.url).presentationDetents([.medium, .large]) }
+            .alert("export.error.title", isPresented: $exportFailed) {
+                Button("action.ok") {}
+            } message: {
+                Text("export.error.message")
             }
             .task { await refreshStatus() }
             .onChange(of: scenePhase) { _, phase in
@@ -48,6 +58,42 @@ struct SettingsView: View {
             Text("settings.section.warranty")
         } footer: {
             Text(LegalContent.defaultTermDisclaimer)
+        }
+    }
+
+    private var dataSection: some View {
+        Section {
+            Button(action: exportAll) {
+                if let progress = exportProgress {
+                    HStack {
+                        ProgressView()
+                        Text("export.working \(progress.done) \(progress.total)")
+                    }
+                } else {
+                    Label("settings.exportAll", systemImage: "square.and.arrow.up.on.square")
+                }
+            }
+            .disabled(exportProgress != nil || products.isEmpty)
+            .accessibilityIdentifier("exportAllButton")
+        } header: {
+            Text("settings.section.data")
+        } footer: {
+            Text("settings.exportAll.footer")
+        }
+    }
+
+    private func exportAll() {
+        exportProgress = (0, products.count)
+        Task {
+            do {
+                let url = try await ExportService.exportAll(products: products) { done, total in
+                    exportProgress = (done, total)
+                }
+                exportItem = ShareItem(url: url)
+            } catch {
+                exportFailed = true
+            }
+            exportProgress = nil
         }
     }
 

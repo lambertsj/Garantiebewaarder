@@ -34,6 +34,13 @@ targets:
     platform: iOS
     sources:
       - Garantiebewaarder
+    dependencies:
+      - target: GarantiebewaarderShare
+    entitlements:
+      path: Garantiebewaarder/Garantiebewaarder.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.jeroenlamberts.garantiebewaarder
     settings:
       base:
         PRODUCT_NAME: Garantiebewaarder
@@ -68,6 +75,44 @@ targets:
         NSCameraUsageDescription: >-
           De camera wordt alleen gebruikt om bonnen en producten te fotograferen.
           Foto's blijven op je toestel (en in je eigen iCloud als je synchroniseren aanzet).
+
+  GarantiebewaarderShare:
+    type: app-extension
+    platform: iOS
+    sources:
+      - GarantiebewaarderShare
+      - path: Garantiebewaarder/Shared/AppGroup.swift
+      - path: Garantiebewaarder/Shared/InboxStore.swift
+    entitlements:
+      path: GarantiebewaarderShare/GarantiebewaarderShare.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.jeroenlamberts.garantiebewaarder
+    settings:
+      base:
+        PRODUCT_NAME: GarantiebewaarderShare
+        PRODUCT_BUNDLE_IDENTIFIER: com.jeroenlamberts.garantiebewaarder.share
+        MARKETING_VERSION: "0.1"
+        CURRENT_PROJECT_VERSION: "1"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks"
+        SWIFT_EMIT_LOC_STRINGS: YES
+        SKIP_INSTALL: YES
+    info:
+      path: GarantiebewaarderShare/Info.plist
+      properties:
+        CFBundleDisplayName: Bewaar in Garantiebewaarder
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleLocalizations: [nl, en]
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.share-services
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).ShareViewController
+          NSExtensionAttributes:
+            NSExtensionActivationRule: >-
+              SUBQUERY(extensionItems, $e, SUBQUERY($e.attachments, $a,
+              ANY $a.registeredTypeIdentifiers UTI-CONFORMS-TO "com.adobe.pdf"
+              OR ANY $a.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image").@count >= 1).@count >= 1
 
   GarantiebewaarderTests:
     type: bundle.unit-test

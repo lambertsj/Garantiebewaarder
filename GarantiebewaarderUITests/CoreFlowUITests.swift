@@ -99,3 +99,26 @@ final class SettingsUITests: XCTestCase {
         XCTAssertTrue(app.buttons["settingsButton"].waitForExistence(timeout: 5))
     }
 }
+
+@MainActor
+final class ReceiptRecognitionUITests: XCTestCase {
+    /// Binnen drie tikken na de scan opgeslagen: bon → controleren → Bewaar.
+    func testRecognizedReceiptPrefillsAndSavesInOneTap() throws {
+        let app = XCUIApplication()
+        app.launchArguments += ["-UITesting", "-UITestingSeedReceipt", "-AppleLanguages", "(nl)", "-AppleLocale", "nl_NL"]
+        app.launch()
+
+        let nameField = app.textFields["nameField"]
+        XCTAssertTrue(nameField.waitForExistence(timeout: 10))
+        XCTAssertEqual(nameField.value as? String, "Bosch wasmachine WAX32")
+        XCTAssertTrue(app.descendants(matching: .any)["recognitionBanner"].firstMatch.exists)
+        let storeField = app.textFields["storeField"]
+        for _ in 0..<3 where !storeField.exists { app.swipeUp() }
+        XCTAssertEqual(storeField.value as? String, "Coolblue")
+        for _ in 0..<3 where !app.buttons["saveButton"].isHittable { app.swipeDown() }
+
+        app.buttons["saveButton"].tap()
+        XCTAssertTrue(app.staticTexts["detailName"].waitForExistence(timeout: 5))
+        XCTAssertEqual(app.staticTexts["detailName"].label, "Bosch wasmachine WAX32")
+    }
+}

@@ -58,6 +58,7 @@ struct ProductEditView: View {
 
     var body: some View {
         Form {
+                recognitionBanner
                 productSection
                 purchaseSection
                 warrantySection
@@ -286,15 +287,15 @@ private struct RecognizedModifier: ViewModifier {
 
     func body(content: Content) -> some View {
         if let confidence {
-            content
-                .listRowBackground(Color.accentColor.opacity(0.12))
-                .overlay(alignment: .trailing) {
-                    Image(systemName: confidence == .low ? "questionmark.circle" : "text.viewfinder")
-                        .font(.footnote)
-                        .foregroundStyle(.tint)
-                        .accessibilityHidden(true)
-                }
-                .accessibilityHint(Text(confidence == .low ? "recognition.hint.low" : "recognition.hint"))
+            HStack(spacing: 8) {
+                content
+                Image(systemName: confidence == .low ? "questionmark.circle" : "text.viewfinder")
+                    .font(.footnote)
+                    .foregroundStyle(.tint)
+                    .accessibilityHidden(true)
+            }
+            .listRowBackground(Color.accentColor.opacity(0.12))
+            .accessibilityHint(Text(confidence == .low ? "recognition.hint.low" : "recognition.hint"))
         } else {
             content
         }

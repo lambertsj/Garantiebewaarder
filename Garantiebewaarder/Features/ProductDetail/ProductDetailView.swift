@@ -13,6 +13,8 @@ struct ProductDetailView: View {
     @State private var showingEdit = false
     @State private var confirmingDelete = false
     @State private var actionError: String?
+    @State private var shareItem: ShareItem?
+    @State private var isExporting = false
 
     private static let logger = Logger(subsystem: "com.jeroenlamberts.garantiebewaarder", category: "detail")
 
@@ -34,7 +36,15 @@ struct ProductDetailView: View {
                 Button("action.edit") { showingEdit = true }
                     .accessibilityIdentifier("editButton")
             }
+            ToolbarItem(placement: .primaryAction) {
+                Button(action: sharePDF) {
+                    if isExporting { ProgressView() } else { Label("action.sharePDF", systemImage: "square.and.arrow.up") }
+                }
+                .disabled(isExporting)
+                .accessibilityIdentifier("sharePDFButton")
+            }
         }
+        .sheet(item: $shareItem) { ShareSheet(url: $0.url).presentationDetents([.medium, .large]) }
         .sheet(isPresented: $showingEdit) { NavigationStack { ProductEditView(mode: .edit(product)) } }
         .confirmationDialog("delete.title", isPresented: $confirmingDelete, titleVisibility: .visible) {
             Button("action.delete", role: .destructive, action: deleteProduct)
@@ -134,6 +144,25 @@ struct ProductDetailView: View {
     }
 
     // MARK: Acties
+
+    /// Maakt de PDF op een achtergrondtaak en opent daarna de deelsheet.
+    private func sharePDF() {
+        isExporting = true
+        let input = ProductPDFInput(product: product, leadDays: leadDays)
+        Task {
+            let data = await Task.detached(priority: .userInitiated) { ExportService.pdfData(for: input) }.value
+            let safeName = input.name.components(separatedBy: CharacterSet(charactersIn: "/\\:?%*|\"<>")).joined(separator: "-")
+            let url = FileManager.default.temporaryDirectory.appendingPathComponent("\(safeName.isEmpty ? AppInfo.name : safeName).pdf")
+            do {
+                try data.write(to: url, options: .atomic)
+                shareItem = ShareItem(url: url)
+            } catch {
+                Self.logger.error("PDF schrijven mislukt: \(error.localizedDescription, privacy: .public)")
+                actionError = error.localizedDescription
+            }
+            isExporting = false
+        }
+    }
 
     private func toggleArchive() {
         product.isArchived.toggle()
