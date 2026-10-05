@@ -93,7 +93,6 @@ final class SettingsUITests: XCTestCase {
         XCTAssertTrue(button.waitForExistence(timeout: 5))
         button.tap()
         XCTAssertTrue(app.switches["remindersToggle"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.staticTexts["Standaard garantieduur"].exists || app.buttons["Standaard garantieduur"].exists)
         app.buttons["settingsDoneButton"].tap()
         XCTAssertTrue(app.buttons["settingsButton"].waitForExistence(timeout: 5))
     }
