@@ -3265,6 +3265,182 @@
           }
         }
       }
+    },
+    "settings.about": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Over deze app"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About this app"
+          }
+        }
+      }
+    },
+    "about.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Over deze app"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About this app"
+          }
+        }
+      }
+    },
+    "about.free": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit is een gratis hobbyproject, niet commercieel: geen abonnement, geen aankopen en geen limiet op het aantal producten."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This is a free hobby project, not commercial: no subscription, no purchases and no limit on the number of products."
+          }
+        }
+      }
+    },
+    "about.privacy.title": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jouw privacy"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your privacy"
+          }
+        }
+      }
+    },
+    "about.privacy.1": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Al je gegevens blijven op je eigen toestel. Er is geen account en geen eigen server."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All your data stays on your own device. There's no account and no server of ours."
+          }
+        }
+      }
+    },
+    "about.privacy.2": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchroniseren via iCloud is optioneel en gaat naar je eigen, privé iCloud-opslag."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syncing via iCloud is optional and goes to your own private iCloud storage."
+          }
+        }
+      }
+    },
+    "about.privacy.3": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geen tracking, geen advertenties en geen analyse-diensten van anderen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No tracking, no ads and no third-party analytics."
+          }
+        }
+      }
+    },
+    "about.privacy.4": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekst op bonnen wordt op je toestel herkend. Foto's en tekst worden niet verstuurd, behalve als jij zelf deelt of exporteert."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text on receipts is recognized on your device. Photos and text are never sent anywhere unless you share or export them yourself."
+          }
+        }
+      }
+    },
+    "about.feedback": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stuur feedback"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Send feedback"
+          }
+        }
+      }
+    },
+    "about.feedback.footer": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opent je e-mailapp. Er wordt niets automatisch verstuurd."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opens your email app. Nothing is sent automatically."
+          }
+        }
+      }
+    },
+    "about.version %@": {
+      "localizations": {
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versie %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version %@"
+          }
+        }
+      }
     }
   }
 }

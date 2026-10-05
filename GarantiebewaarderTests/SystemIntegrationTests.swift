@@ -109,4 +109,9 @@ struct ClaimEmailTests {
         #expect(!text.contains(" "))
         #expect(text.contains("%0A"))
     }
+
+    @Test func feedbackMailtoHasRecipient() throws {
+        let url = try #require(ClaimEmailTemplate.mailtoURL(for: .init(subject: "Garantiebewaarder 1.0", body: ""), recipient: "feedback@example.com"))
+        #expect(url.absoluteString.hasPrefix("mailto:feedback@example.com?"))
+    }
 }

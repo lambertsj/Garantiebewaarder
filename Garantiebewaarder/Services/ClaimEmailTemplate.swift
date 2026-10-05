@@ -49,11 +49,11 @@ enum ClaimEmailTemplate {
         return Message(subject: subject, body: lines.joined(separator: "\n"))
     }
 
-    /// `mailto:`-URL zonder ontvanger (die weet de gebruiker zelf).
-    static func mailtoURL(for message: Message) -> URL? {
+    /// `mailto:`-URL; bij een klacht zonder ontvanger (die weet de gebruiker zelf).
+    static func mailtoURL(for message: Message, recipient: String = "") -> URL? {
         var components = URLComponents()
         components.scheme = "mailto"
-        components.path = ""
+        components.path = recipient
         components.queryItems = [
             URLQueryItem(name: "subject", value: message.subject),
             URLQueryItem(name: "body", value: message.body),

@@ -227,6 +227,12 @@ struct SettingsView: View {
                 Label("settings.archived", systemImage: "archivebox")
             }
             .accessibilityIdentifier("archivedLink")
+            NavigationLink {
+                AboutView()
+            } label: {
+                Label("settings.about", systemImage: "info.circle")
+            }
+            .accessibilityIdentifier("aboutLink")
             Button(role: .destructive) { confirmingDeleteAll = true } label: {
                 Label("settings.deleteAll", systemImage: "trash")
             }
