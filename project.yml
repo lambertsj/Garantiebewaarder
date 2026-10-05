@@ -65,6 +65,9 @@ targets:
           - UIInterfaceOrientationLandscapeLeft
           - UIInterfaceOrientationLandscapeRight
         ITSAppUsesNonExemptEncryption: false
+        NSCameraUsageDescription: >-
+          De camera wordt alleen gebruikt om bonnen en producten te fotograferen.
+          Foto's blijven op je toestel (en in je eigen iCloud als je synchroniseren aanzet).
 
   GarantiebewaarderTests:
     type: bundle.unit-test

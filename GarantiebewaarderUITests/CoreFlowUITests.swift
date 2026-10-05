@@ -15,6 +15,9 @@ final class CoreFlowUITests: XCTestCase {
         let add = app.buttons["addButton"]
         XCTAssertTrue(add.waitForExistence(timeout: 5))
         add.tap()
+        let manual = app.buttons["manualButton"]
+        XCTAssertTrue(manual.waitForExistence(timeout: 5))
+        manual.tap()
         let nameField = app.textFields["nameField"]
         XCTAssertTrue(nameField.waitForExistence(timeout: 5))
         nameField.tap()
@@ -30,6 +33,9 @@ final class CoreFlowUITests: XCTestCase {
     func testAddOpenEditDelete() throws {
         launchApp()
         XCTAssertTrue(app.buttons["emptyAddButton"].waitForExistence(timeout: 5))
+        app.buttons["emptyAddButton"].tap()
+        XCTAssertTrue(app.buttons["manualButton"].waitForExistence(timeout: 5))
+        app.buttons["cancelAddButton"].tap()
 
         addProduct(named: "Wasmachine")
         // Na opslaan opent het detail van het nieuwe product.

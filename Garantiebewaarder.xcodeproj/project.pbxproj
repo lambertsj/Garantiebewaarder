@@ -11,20 +11,27 @@
 		0504C976AB961CAA52A5C935 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795FB7CB7E393E73FC12C6C2 /* Product.swift */; };
 		08A2C6F1BAFCB5E19FDA09D5 /* WarrantyCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE3665608E7208483C09145 /* WarrantyCalculator.swift */; };
 		094707724361F47D4A2C1812 /* ProductListQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C536CBD67718ACD9C1FC43 /* ProductListQuery.swift */; };
+		0FCB5F4C29062C8979BF0E98 /* AddProductSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBAA7F5D3123847062A7F0C /* AddProductSheet.swift */; };
+		11A45C9A95855A5F060FB0FC /* AttachmentProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C34437FAB2B2B3672C0970 /* AttachmentProcessorTests.swift */; };
 		189DC04B9A4AEE7177D93FA3 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A79EF4D8A6F9207D6E9795 /* PreviewData.swift */; };
 		18D2CFF432A4A56DA1988A8F /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2D99E821B238B91A416469 /* ProductDetailView.swift */; };
+		26DCD5A250D6B6DBD977D7E8 /* AttachmentsEditorSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FF8D65A45C73C245E73C5 /* AttachmentsEditorSection.swift */; };
 		274A24C0315A950382731957 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4712DE9B34B33D9C1142BE /* Money.swift */; };
 		2AD7E3649BD1656B5E8FC1B3 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FF31C906D5AC6F3D067DD /* AppInfo.swift */; };
 		32C3B8A6A680C7E9E2B8B488 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CAD37C5BF72BF6BBE58EB /* Enums.swift */; };
 		3AA1206BB67CCBC23B2554E7 /* ProductDraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B7BCF1938172D41039C94E /* ProductDraftTests.swift */; };
 		406DA6C292682EC05FE33D35 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 453A56711373CB1632CAC2B1 /* Localizable.xcstrings */; };
 		42DD62FDB7808F96A7DF66C8 /* WarrantyCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F57B94C47DEA9F7D44F54 /* WarrantyCalculatorTests.swift */; };
+		469211EDD5F116E9088F06D6 /* AttachmentViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FB73FFB266D802077BA864 /* AttachmentViewer.swift */; };
 		4693C5409E1E788371C59CC6 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54A35E5F6B3F1F235EB49C /* ProductListView.swift */; };
 		4B7FFFD2E23DE9F90A462807 /* CoreFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01B32B9D64B2DC4A221D18A /* CoreFlowUITests.swift */; };
 		4CA4299B4F3B9BC87071A8AB /* ProductDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81438795A7E0A2FEAA0E3AC6 /* ProductDraft.swift */; };
 		5C8B5424D10FECECF32D5356 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2E703C47338EDBCC3478A /* ProductRow.swift */; };
 		62DFCF495AF7307C3F4EBC04 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5324A77D400F9836E09E37FE /* Theme.swift */; };
+		6904710AA9CB345ECC4E4FA0 /* AttachmentImportController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DF5F6EE9832B72AE64128 /* AttachmentImportController.swift */; };
 		69E5469C432C66550B15B1A6 /* ProductModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821E085B3AC0F2650FDC9DD0 /* ProductModelTests.swift */; };
+		6D07D8935814813A72CD4AE5 /* DocumentScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E821B16A814BA68257B4D /* DocumentScannerView.swift */; };
+		6E8859216E5189074E05B4A7 /* AttachmentProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DA5606F72406016A65B2B /* AttachmentProcessor.swift */; };
 		7E8E0E23A930C88B3CD9B04F /* WarrantyStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DCA40339ACB5161E3B9EC1 /* WarrantyStatus.swift */; };
 		9242DF307BE8628654EEA442 /* ProductEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63CCCA0DB90885A12E16445 /* ProductEditView.swift */; };
 		9350F461356F855316FE8784 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E7D096E0D95B6C50C753A580 /* PrivacyInfo.xcprivacy */; };
@@ -34,6 +41,7 @@
 		D981978C23E41A3CE6832551 /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F8B2DAE9A16AF305B017A /* Attachment.swift */; };
 		DD50C2A2BCBF71E43FA25D04 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B769A0A280413544F68576FD /* PersistenceController.swift */; };
 		F7943981F62B7DF939B27AB3 /* ProductThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C187A400C700F4C6FBC1005 /* ProductThumbnail.swift */; };
+		F8B959AEA628CA8160D91A2D /* AttachmentGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BA34EC9056786C34A39899 /* AttachmentGrid.swift */; };
 		FEBFB630EB8DC37D1DAAFB87 /* WarrantyRemaining+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99373128869543C25406AB04 /* WarrantyRemaining+Text.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008DA5606F72406016A65B2B /* AttachmentProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentProcessor.swift; sourceTree = "<group>"; };
 		0272DF08F1B528E2E032F16C /* GarantiebewaarderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarantiebewaarderApp.swift; sourceTree = "<group>"; };
 		0323D327AC045527DAA827E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09F6C82F8EAFE13BAE3C0BAA /* ProductListQueryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListQueryTests.swift; sourceTree = "<group>"; };
@@ -62,19 +71,24 @@
 		0F84C94A514B2417C3CB01CD /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		264CDC666C911793E08A9F42 /* GarantiebewaarderUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GarantiebewaarderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29281219D01F7A52E9D6BDA3 /* Garantiebewaarder.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Garantiebewaarder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBAA7F5D3123847062A7F0C /* AddProductSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductSheet.swift; sourceTree = "<group>"; };
 		2C54A35E5F6B3F1F235EB49C /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		37A79EF4D8A6F9207D6E9795 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		3F6F57B94C47DEA9F7D44F54 /* WarrantyCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyCalculatorTests.swift; sourceTree = "<group>"; };
+		42C34437FAB2B2B3672C0970 /* AttachmentProcessorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentProcessorTests.swift; sourceTree = "<group>"; };
 		453A56711373CB1632CAC2B1 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		5324A77D400F9836E09E37FE /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		63B7BCF1938172D41039C94E /* ProductDraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDraftTests.swift; sourceTree = "<group>"; };
 		67C0A22822E1A8CEEC544363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6BA2E703C47338EDBCC3478A /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		6C3FF8D65A45C73C245E73C5 /* AttachmentsEditorSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentsEditorSection.swift; sourceTree = "<group>"; };
 		795FB7CB7E393E73FC12C6C2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		7B2D99E821B238B91A416469 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		81438795A7E0A2FEAA0E3AC6 /* ProductDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDraft.swift; sourceTree = "<group>"; };
 		821E085B3AC0F2650FDC9DD0 /* ProductModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModelTests.swift; sourceTree = "<group>"; };
+		90BA34EC9056786C34A39899 /* AttachmentGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentGrid.swift; sourceTree = "<group>"; };
 		99373128869543C25406AB04 /* WarrantyRemaining+Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WarrantyRemaining+Text.swift"; sourceTree = "<group>"; };
+		A38E821B16A814BA68257B4D /* DocumentScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScannerView.swift; sourceTree = "<group>"; };
 		AA4712DE9B34B33D9C1142BE /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 		ABE3665608E7208483C09145 /* WarrantyCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyCalculator.swift; sourceTree = "<group>"; };
 		B769A0A280413544F68576FD /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
@@ -82,10 +96,12 @@
 		BC2FF31C906D5AC6F3D067DD /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 		D7C536CBD67718ACD9C1FC43 /* ProductListQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListQuery.swift; sourceTree = "<group>"; };
 		DED6548CEAA8ABB22CBA4B11 /* GarantiebewaarderTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GarantiebewaarderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FB73FFB266D802077BA864 /* AttachmentViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentViewer.swift; sourceTree = "<group>"; };
 		E7D096E0D95B6C50C753A580 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		F01B32B9D64B2DC4A221D18A /* CoreFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreFlowUITests.swift; sourceTree = "<group>"; };
 		F06CAD37C5BF72BF6BBE58EB /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		F63CCCA0DB90885A12E16445 /* ProductEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductEditView.swift; sourceTree = "<group>"; };
+		FA9DF5F6EE9832B72AE64128 /* AttachmentImportController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentImportController.swift; sourceTree = "<group>"; };
 		FE0F8B2DAE9A16AF305B017A /* Attachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				A8BA8711C3EE1AADC805F83E /* AddProduct */,
+				9AFE677B79FF3E048814CFBE /* Attachments */,
 				E78B2475504C3A0FEEC1735E /* ProductDetail */,
 				75767708A8936D31F32DCC03 /* ProductList */,
 			);
@@ -136,11 +153,24 @@
 		8CB61D9B221E5CA17AD9D168 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				008DA5606F72406016A65B2B /* AttachmentProcessor.swift */,
 				81438795A7E0A2FEAA0E3AC6 /* ProductDraft.swift */,
 				D7C536CBD67718ACD9C1FC43 /* ProductListQuery.swift */,
 				ABE3665608E7208483C09145 /* WarrantyCalculator.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		9AFE677B79FF3E048814CFBE /* Attachments */ = {
+			isa = PBXGroup;
+			children = (
+				90BA34EC9056786C34A39899 /* AttachmentGrid.swift */,
+				FA9DF5F6EE9832B72AE64128 /* AttachmentImportController.swift */,
+				6C3FF8D65A45C73C245E73C5 /* AttachmentsEditorSection.swift */,
+				E1FB73FFB266D802077BA864 /* AttachmentViewer.swift */,
+				A38E821B16A814BA68257B4D /* DocumentScannerView.swift */,
+			);
+			path = Attachments;
 			sourceTree = "<group>";
 		};
 		A59BA0EDF3AEB24685BDD707 = {
@@ -156,6 +186,7 @@
 		A8BA8711C3EE1AADC805F83E /* AddProduct */ = {
 			isa = PBXGroup;
 			children = (
+				2BBAA7F5D3123847062A7F0C /* AddProductSheet.swift */,
 				F63CCCA0DB90885A12E16445 /* ProductEditView.swift */,
 			);
 			path = AddProduct;
@@ -224,6 +255,7 @@
 		FCD772751A7B03B68159BF54 /* GarantiebewaarderTests */ = {
 			isa = PBXGroup;
 			children = (
+				42C34437FAB2B2B3672C0970 /* AttachmentProcessorTests.swift */,
 				63B7BCF1938172D41039C94E /* ProductDraftTests.swift */,
 				09F6C82F8EAFE13BAE3C0BAA /* ProductListQueryTests.swift */,
 				821E085B3AC0F2650FDC9DD0 /* ProductModelTests.swift */,
@@ -361,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A45C9A95855A5F060FB0FC /* AttachmentProcessorTests.swift in Sources */,
 				3AA1206BB67CCBC23B2554E7 /* ProductDraftTests.swift in Sources */,
 				CF51F70A22CDD568BAC96950 /* ProductListQueryTests.swift in Sources */,
 				69E5469C432C66550B15B1A6 /* ProductModelTests.swift in Sources */,
@@ -372,9 +405,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FCB5F4C29062C8979BF0E98 /* AddProductSheet.swift in Sources */,
 				2AD7E3649BD1656B5E8FC1B3 /* AppInfo.swift in Sources */,
 				C383D30CB3A23DDB84566BEA /* AppSettings.swift in Sources */,
 				D981978C23E41A3CE6832551 /* Attachment.swift in Sources */,
+				F8B959AEA628CA8160D91A2D /* AttachmentGrid.swift in Sources */,
+				6904710AA9CB345ECC4E4FA0 /* AttachmentImportController.swift in Sources */,
+				6E8859216E5189074E05B4A7 /* AttachmentProcessor.swift in Sources */,
+				469211EDD5F116E9088F06D6 /* AttachmentViewer.swift in Sources */,
+				26DCD5A250D6B6DBD977D7E8 /* AttachmentsEditorSection.swift in Sources */,
+				6D07D8935814813A72CD4AE5 /* DocumentScannerView.swift in Sources */,
 				32C3B8A6A680C7E9E2B8B488 /* Enums.swift in Sources */,
 				02125905C4E2BEB385A80B06 /* GarantiebewaarderApp.swift in Sources */,
 				274A24C0315A950382731957 /* Money.swift in Sources */,

@@ -11,6 +11,9 @@ struct ProductEditView: View {
 
     let mode: Mode
     var onSaved: (Product) -> Void = { _ in }
+    /// Sluit het hele scherm. Nodig als dit scherm in een sheet is ingebed
+    /// (`dismiss` zou dan alleen terug navigeren).
+    var close: (() -> Void)?
 
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
@@ -19,12 +22,18 @@ struct ProductEditView: View {
     @State private var draft: ProductDraft
     @State private var saveCount = 0
     @State private var saveError: String?
+    @State private var pending: [PendingAttachment]
+    @State private var removedAttachmentIDs: Set<UUID> = []
+    @State private var importer = AttachmentImportController()
 
     private static let logger = Logger(subsystem: "com.jeroenlamberts.garantiebewaarder", category: "edit")
 
-    init(mode: Mode, onSaved: @escaping (Product) -> Void = { _ in }) {
+    init(mode: Mode, initialAttachments: [PendingAttachment] = [],
+         onSaved: @escaping (Product) -> Void = { _ in }, close: (() -> Void)? = nil) {
         self.mode = mode
         self.onSaved = onSaved
+        self.close = close
+        _pending = State(initialValue: initialAttachments)
         switch mode {
         case .create:
             let months = AppSettings.int(AppSettings.Key.defaultWarrantyMonths, default: AppSettings.Default.defaultWarrantyMonths)
@@ -39,18 +48,21 @@ struct ProductEditView: View {
     }
 
     var body: some View {
-        NavigationStack {
-            Form {
+        Form {
                 productSection
                 purchaseSection
                 warrantySection
+                AttachmentsEditorSection(
+                    existing: existingAttachments, removedIDs: $removedAttachmentIDs,
+                    pending: $pending, importer: importer
+                )
                 detailsSection
             }
             .navigationTitle(isCreating ? "edit.title.new" : "edit.title.edit")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("action.cancel") { dismiss() }
+                    Button("action.cancel") { closeScreen() }
                         .accessibilityIdentifier("cancelButton")
                 }
                 ToolbarItem(placement: .confirmationAction) {
@@ -65,8 +77,25 @@ struct ProductEditView: View {
             } message: {
                 Text("error.save.message")
             }
+            .alert(
+                Text(importer.error?.message ?? "import.error.unreadable"),
+                isPresented: Binding(get: { importer.error != nil }, set: { if !$0 { importer.error = nil } })
+            ) {
+                Button("action.ok") { importer.error = nil }
+            } message: {
+                Text("import.error.hint")
+            }
+    }
+
+    private var existingAttachments: [Attachment] {
+        if case .edit(let product) = mode {
+            return (product.attachments ?? []).sorted { $0.createdAt < $1.createdAt }
         }
-        .interactiveDismissDisabled(false)
+        return []
+    }
+
+    private func closeScreen() {
+        if let close { close() } else { dismiss() }
     }
 
     // MARK: Secties
@@ -161,6 +190,17 @@ struct ProductEditView: View {
             draft.apply(to: product)
             saved = product
         }
+        for item in pending {
+            let attachment = Attachment(
+                kind: item.kind, fileType: item.fileType, data: item.data,
+                thumbnailData: item.thumbnailData, recognizedText: item.recognizedText
+            )
+            modelContext.insert(attachment)
+            attachment.product = saved
+        }
+        for attachment in existingAttachments where removedAttachmentIDs.contains(attachment.id) {
+            modelContext.delete(attachment)
+        }
         do {
             try modelContext.save()
         } catch {
@@ -169,13 +209,13 @@ struct ProductEditView: View {
             return
         }
         saveCount += 1
-        dismiss()
+        closeScreen()
         if isCreating { onSaved(saved) }
     }
 }
 
 #if DEBUG
 #Preview("Nieuw") {
-    ProductEditView(mode: .create).modelContainer(PersistenceController.makeContainer(inMemory: true))
+    NavigationStack { ProductEditView(mode: .create) }.modelContainer(PersistenceController.makeContainer(inMemory: true))
 }
 #endif

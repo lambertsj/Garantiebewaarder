@@ -23,6 +23,7 @@ struct ProductDetailView: View {
             headerSection
             warrantySection
             purchaseSection
+            attachmentsSection
             dataSection
             actionsSection
         }
@@ -34,7 +35,7 @@ struct ProductDetailView: View {
                     .accessibilityIdentifier("editButton")
             }
         }
-        .sheet(isPresented: $showingEdit) { ProductEditView(mode: .edit(product)) }
+        .sheet(isPresented: $showingEdit) { NavigationStack { ProductEditView(mode: .edit(product)) } }
         .confirmationDialog("delete.title", isPresented: $confirmingDelete, titleVisibility: .visible) {
             Button("action.delete", role: .destructive, action: deleteProduct)
                 .accessibilityIdentifier("confirmDeleteButton")
@@ -83,6 +84,14 @@ struct ProductDetailView: View {
             if let price = product.price {
                 LabeledContent("field.price", value: price.formatted(.currency(code: "EUR")))
             }
+        }
+    }
+
+    @ViewBuilder
+    private var attachmentsSection: some View {
+        let items = (product.attachments ?? []).sorted { $0.createdAt < $1.createdAt }
+        if !items.isEmpty {
+            Section("detail.section.attachments") { AttachmentGrid(attachments: items) }
         }
     }
 

@@ -39,7 +39,7 @@ struct ProductListView: View {
                 }
             }
             .sheet(isPresented: $showingAdd) {
-                ProductEditView(mode: .create) { created in
+                AddProductSheet { created in
                     path.append(created)
                 }
             }
