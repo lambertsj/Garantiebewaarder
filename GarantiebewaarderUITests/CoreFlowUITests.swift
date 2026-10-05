@@ -92,7 +92,9 @@ final class SettingsUITests: XCTestCase {
         let button = app.buttons["settingsButton"]
         XCTAssertTrue(button.waitForExistence(timeout: 5))
         button.tap()
-        XCTAssertTrue(app.switches["remindersToggle"].waitForExistence(timeout: 5))
+        let toggle = app.descendants(matching: .any)["remindersToggle"].firstMatch
+        for _ in 0..<3 where !toggle.exists { app.swipeUp() }
+        XCTAssertTrue(toggle.waitForExistence(timeout: 5))
         app.buttons["settingsDoneButton"].tap()
         XCTAssertTrue(app.buttons["settingsButton"].waitForExistence(timeout: 5))
     }
