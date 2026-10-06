@@ -22,7 +22,7 @@ Zoek ze met `grep -rn "TODO(user)" Garantiebewaarder project.yml`.
 > **Klaar voor indienen:** alle teksten en formulierantwoorden staan in `AppStore/METADATA.md`; archiveren en uploaden gaat met `Scripts/release.sh`. Versie is 1.0 (1). Feedback loopt via GitHub (`AppInfo.feedbackURL`), er is geen e-mailadres nodig.
 
 - **Bundle-identifiers** (aanname): `com.jeroenlamberts.garantiebewaarder` (+ `.share`, `.widget`, `.tests`, `.uitests`). Wijzig in `project.yml` en in de entitlements.
-- **Signing**: `DEVELOPMENT_TEAM` staat leeg in `project.yml`; zet je team-id. Daarna in het developer-portal: App Group, iCloud (CloudKit-container) en Push Notifications voor de app, en App Group voor de Share Extension en de widget.
+- **Signing**: `DEVELOPMENT_TEAM` staat op `XYLKXHWCCC` in `project.yml`. Daarna in het developer-portal: App Group, iCloud (CloudKit-container) en Push Notifications voor de app, en App Group voor de Share Extension en de widget.
 - **CloudKit-schema deployen**: SwiftData maakt het schema in de *development*-omgeving aan zodra je met een echt account synchroniseert. Voor TestFlight/App Store moet je in de CloudKit Dashboard het schema **"Deploy Schema Changes to Production"**. Zonder dat synchroniseren productie-builds niet.
 - **Naam**: "Garantiebewaarder" is een werknaam (`CFBundleDisplayName` in `project.yml`; extensienamen daar ook). Controleer beschikbaarheid in App Store Connect.
 - **App-icoon**: `Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png` is een gegenereerde placeholder (schild met vinkje). Vervang het bestand door je eigen 1024×1024-icoon; de rest werkt automatisch. Eventueel ook donker/getint toevoegen.

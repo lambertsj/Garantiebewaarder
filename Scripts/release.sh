@@ -4,15 +4,15 @@
 # Gebruik (zelf draaien; vereist een betaald Apple Developer-account en dat je in Xcode
 # bent ingelogd met dat account: Xcode > Settings > Accounts):
 #
-#   TEAM_ID=ABCDE12345 Scripts/release.sh            # archiveren + uploaden
-#   TEAM_ID=ABCDE12345 MODE=export Scripts/release.sh # alleen .ipa maken (build/export)
-#   BUILD_NUMBER=2 TEAM_ID=... Scripts/release.sh     # nieuw buildnummer bij een volgende upload
+#   Scripts/release.sh                                # archiveren + uploaden (TEAM_ID standaard XYLKXHWCCC)
+#   MODE=export Scripts/release.sh                    # alleen .ipa maken (build/export)
+#   BUILD_NUMBER=2 Scripts/release.sh                 # nieuw buildnummer bij een volgende upload
 #
 # Met -allowProvisioningUpdates laat Xcode bij Apple de App ID's, de App Group en de iCloud-
 # container aanmaken en de profielen ophalen. Dat wijzigt je developer-account.
 set -euo pipefail
 
-: "${TEAM_ID:?Zet TEAM_ID, bijvoorbeeld TEAM_ID=ABCDE12345 (te vinden op developer.apple.com > Membership)}"
+TEAM_ID="${TEAM_ID:-XYLKXHWCCC}"
 MODE="${MODE:-upload}"
 cd "$(dirname "$0")/.."
 
