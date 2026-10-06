@@ -65,3 +65,12 @@ fastlane/test_output
 
 # release-uitvoer
 build/
+
+# Geheimen: nooit committen (App Store Connect API-sleutels e.d.)
+.private_keys/
+private_keys/
+*.p8
+AuthKey_*.p8
+*.p12
+*.mobileprovision
+.env
