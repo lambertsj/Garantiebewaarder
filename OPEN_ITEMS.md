@@ -32,6 +32,9 @@ Zoek ze met `grep -rn "TODO(user)" Garantiebewaarder project.yml`.
 - **Taal**: Nederlands is de brontaal, Engels staat klaar (`Localizable.xcstrings`, ook voor de Share Extension). Laat de Engelse teksten nalezen als je Engels wilt uitbrengen; voeg `nl`/`en` toe aan de App Store-metadata.
 - **App Store-metadata**: beschrijving, trefwoorden, categorie (Productiviteit of Zakelijk/Lifestyle), schermafbeeldingen, leeftijdsclassificatie, exportcompliance (`ITSAppUsesNonExemptEncryption` staat op `false`).
 
+### App Store Connect-scripts
+`Scripts/asc_setup.py` (metadata, categorieën, leeftijd, build, reviewnotities) en `Scripts/asc_screenshots.py` (screenshots) praten met de App Store Connect API en lezen de teksten uit `AppStore/METADATA.md`. De sleutel staat **buiten** de repo (`~/.private_keys/AuthKey_<ID>.p8`, genegeerd door git) en wordt via `ASC_KEY_ID`, `ASC_ISSUER_ID` en `ASC_KEY_PATH` doorgegeven. De sleutel is bedoeld voor eenmalig gebruik: **trek hem in** (App Store Connect → Gebruikers en toegang → Integraties) als je klaar bent.
+
 ## 3. Bekende beperkingen en aannames
 
 **Niet gebouwd (bewust, uit de opdracht optioneel/later):**
