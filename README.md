@@ -157,7 +157,7 @@ De simulator kan niet alles; loop deze na op een toestel:
 11. **Document-camera** (alleen op toestel): scan een echte bon; meerdere pagina's; annuleren.
 12. **Share Extension:** deel een bonfoto uit Foto's, een PDF uit Bestanden en een factuur uit Mail → "Bewaard" → open de app → bewerkscherm met voorstel.
 13. **Widget:** voeg de widget (klein en middel) toe; tik opent het product; na verwijderen van alles toont hij de lege staat.
-14. **Dark Mode en iPad:** beide bekeken in de simulator; controleer de kleuren van het "herkend"-label.
+14. **Dark Mode:** beide bekeken in de simulator; controleer de kleuren van het "herkend"-label.
 
 ## Bekende beperkingen
 Zie `OPEN_ITEMS.md`.

@@ -26,6 +26,8 @@ Zoek ze met `grep -rn "TODO(user)" Garantiebewaarder project.yml`.
 - **Naam**: "Garantiebewaarder" is een werknaam (`CFBundleDisplayName` in `project.yml`; extensienamen daar ook). Controleer beschikbaarheid in App Store Connect.
 - **App-icoon**: `Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png` is een gegenereerde placeholder (schild met vinkje). Vervang het bestand door je eigen 1024×1024-icoon; de rest werkt automatisch. Eventueel ook donker/getint toevoegen.
 - **Privacybeleid-URL**: App Store Connect vraagt er een. De app heeft bewust geen eigen server; een korte statische pagina volstaat (de teksten onder "Over deze app" kun je hergebruiken).
+- **Alleen iPhone**: de app is bewust iPhone-only (`TARGETED_DEVICE_FAMILY: 1`); op iPad draait hij in compatibiliteitsmodus, dus er zijn geen iPad-screenshots nodig. Wil je later native iPad-ondersteuning, dan is een lijst/detail-lay-out (NavigationSplitView) nodig.
+- **Screenshots**: iPhone 6,9" (1320×2868), nl en en, zijn te maken met `TEST_RUNNER_GB_SCREENSHOTS=1` (zie `ScreenshotUITests.swift`).
 - **Taal**: Nederlands is de brontaal, Engels staat klaar (`Localizable.xcstrings`, ook voor de Share Extension). Laat de Engelse teksten nalezen als je Engels wilt uitbrengen; voeg `nl`/`en` toe aan de App Store-metadata.
 - **App Store-metadata**: beschrijving, trefwoorden, categorie (Productiviteit of Zakelijk/Lifestyle), schermafbeeldingen, leeftijdsclassificatie, exportcompliance (`ITSAppUsesNonExemptEncryption` staat op `false`).
 
@@ -69,7 +71,7 @@ Zoek ze met `grep -rn "TODO(user)" Garantiebewaarder project.yml`.
 - [ ] Handmatige scenario's uit `README.md` doorlopen op een echt toestel (camera, sync, meldingen, widget, deelmenu).
 - [ ] **Privacylabel**: "Gegevens niet verzameld" (geen tracking, geen analytics, geen server). Controleer dat dit klopt met de laatste build.
 - [ ] **Privacybeleid-URL** ingevuld.
-- [ ] **Schermafbeeldingen** (6,9"- en 6,3"-iPhone, optioneel iPad): overzicht, bon-herkenning/bewerkscherm, detail met bijlage, claimhulp, widget.
+- [ ] **Schermafbeeldingen** (alleen 6,9"-iPhone nodig; iPhone-only): overzicht, bon-herkenning/bewerkscherm, detail met bijlage, claimhulp, widget.
 - [ ] **Beschrijving** en trefwoorden (nl, evt. en); noem expliciet: gratis, geen account, gegevens blijven op je toestel.
 - [ ] Leeftijdsclassificatie en exportcompliance ingevuld; "Geen in-app aankopen".
 - [ ] Review-notitie: uitleg dat de app geen login heeft; camera-, meldings- en iCloud-gebruik worden alleen op gebruikersactie gevraagd.
