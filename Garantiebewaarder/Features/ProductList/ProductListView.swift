@@ -93,6 +93,18 @@ struct ProductListView: View {
         guard !isLoadingInbox, inboxBatch == nil, !showingAdd else { return }
         #if DEBUG
         // UI-test: simuleert een bon waarvan de tekst al herkend is (zonder camera of OCR).
+        if ProcessInfo.processInfo.arguments.contains("-DemoSeedReceipt"), !didSeedForUITest {
+            didSeedForUITest = true
+            let text = DemoData.isEnglish
+                ? "Appliance Center\nInvoice\nInvoice date: 14 September 2026\nWashing machine 8 kg A-label   € 549.00\nInstallation   € 29.00\nTotal incl. VAT   € 578.00"
+                : "Witgoed Centrum\nFactuur\nFactuurdatum: 14 september 2026\nWasmachine 8 kg A-label   € 549,00\nInstallatie   € 29,00\nTotaal incl. btw   € 578,00"
+            let image = DemoData.receiptImage(store: DemoData.t("Witgoed Centrum", "Appliance Center"), product: DemoData.t("Wasmachine 8 kg", "Washing machine 8 kg"), price: 549)
+            if var item = AttachmentProcessor.processImage(image, kind: .receipt) {
+                item.recognizedText = text
+                inboxBatch = InboxImporter.Batch(seed: AddProductSheet.Seed(attachments: [item]), files: [], skippedUnreadable: 0)
+            }
+            return
+        }
         if ProcessInfo.processInfo.arguments.contains("-UITestingSeedReceipt"), !didSeedForUITest {
             didSeedForUITest = true
             let text = "Coolblue\nFactuurdatum: 12 maart 2026\nBosch wasmachine WAX32   € 649,00\nTotaal incl. btw € 649,00"

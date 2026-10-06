@@ -15,6 +15,9 @@ struct GarantiebewaarderApp: App {
             UserDefaults.standard.set(!arguments.contains("-UITestingOnboarding"), forKey: AppSettings.Key.hasCompletedOnboarding)
         }
         container = PersistenceController.makeContainer(inMemory: inMemory)
+        #if DEBUG
+        if arguments.contains("-DemoData") { DemoData.populate(container.mainContext) }
+        #endif
     }
 
     var body: some Scene {
