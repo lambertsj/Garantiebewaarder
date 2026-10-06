@@ -23,8 +23,8 @@ struct AboutView: View {
             }
 
             Section {
-                if let url = feedbackURL {
-                    Button { openURL(url) } label: { Label("about.feedback", systemImage: "envelope") }
+                if let url = AppInfo.feedbackURL {
+                    Button { openURL(url) } label: { Label("about.feedback", systemImage: "bubble.left.and.text.bubble.right") }
                         .accessibilityIdentifier("feedbackButton")
                 }
             } footer: {
@@ -41,12 +41,5 @@ struct AboutView: View {
         } icon: {
             Image(systemName: symbol).foregroundStyle(.tint)
         }
-    }
-
-    private var feedbackURL: URL? {
-        ClaimEmailTemplate.mailtoURL(
-            for: .init(subject: "\(AppInfo.name) \(AppInfo.version)", body: ""),
-            recipient: AppInfo.feedbackEmail
-        )
     }
 }

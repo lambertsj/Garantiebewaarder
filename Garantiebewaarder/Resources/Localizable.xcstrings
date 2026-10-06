@@ -1,2605 +1,2601 @@
 {
-  "sourceLanguage" : "nl",
-  "strings" : {
-    "%lld" : {
-
-    },
-    "about.feedback" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Send feedback"
+  "sourceLanguage": "nl",
+  "strings": {
+    "%lld": {},
+    "about.feedback": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Send feedback or report a problem"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Stuur feedback"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Feedback of een probleem melden"
           }
         }
       }
     },
-    "about.feedback.footer" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Opens your email app. Nothing is sent automatically."
+    "about.feedback.footer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opens GitHub in Safari, where you can leave a message. No email address or account in the app is needed."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Opent je e-mailapp. Er wordt niets automatisch verstuurd."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opent GitHub in Safari. Daar kun je een bericht achterlaten; er is geen e-mailadres of account in de app nodig."
           }
         }
       }
     },
-    "about.free" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "This is a free hobby project, not commercial: no subscription, no purchases and no limit on the number of products."
+    "about.free": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This is a free hobby project, not commercial: no subscription, no purchases and no limit on the number of products."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dit is een gratis hobbyproject, niet commercieel: geen abonnement, geen aankopen en geen limiet op het aantal producten."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit is een gratis hobbyproject, niet commercieel: geen abonnement, geen aankopen en geen limiet op het aantal producten."
           }
         }
       }
     },
-    "about.privacy.1" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "All your data stays on your own device. There's no account and no server of ours."
+    "about.privacy.1": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All your data stays on your own device. There's no account and no server of ours."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Al je gegevens blijven op je eigen toestel. Er is geen account en geen eigen server."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Al je gegevens blijven op je eigen toestel. Er is geen account en geen eigen server."
           }
         }
       }
     },
-    "about.privacy.2" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Syncing via iCloud is optional and goes to your own private iCloud storage."
+    "about.privacy.2": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syncing via iCloud is optional and goes to your own private iCloud storage."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Synchroniseren via iCloud is optioneel en gaat naar je eigen, privé iCloud-opslag."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchroniseren via iCloud is optioneel en gaat naar je eigen, privé iCloud-opslag."
           }
         }
       }
     },
-    "about.privacy.3" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No tracking, no ads and no third-party analytics."
+    "about.privacy.3": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No tracking, no ads and no third-party analytics."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Geen tracking, geen advertenties en geen analyse-diensten van anderen."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geen tracking, geen advertenties en geen analyse-diensten van anderen."
           }
         }
       }
     },
-    "about.privacy.4" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Text on receipts is recognized on your device. Photos and text are never sent anywhere unless you share or export them yourself."
+    "about.privacy.4": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text on receipts is recognized on your device. Photos and text are never sent anywhere unless you share or export them yourself."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tekst op bonnen wordt op je toestel herkend. Foto's en tekst worden niet verstuurd, behalve als jij zelf deelt of exporteert."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekst op bonnen wordt op je toestel herkend. Foto's en tekst worden niet verstuurd, behalve als jij zelf deelt of exporteert."
           }
         }
       }
     },
-    "about.privacy.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your privacy"
+    "about.privacy.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your privacy"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Jouw privacy"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jouw privacy"
           }
         }
       }
     },
-    "about.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "About this app"
+    "about.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About this app"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Over deze app"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Over deze app"
           }
         }
       }
     },
-    "about.version %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Version %@"
+    "about.version %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version %@"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Versie %@"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versie %@"
           }
         }
       }
     },
-    "action.add" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add"
+    "action.add": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Toevoegen"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toevoegen"
           }
         }
       }
     },
-    "action.archive" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Archive"
+    "action.archive": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archive"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Archiveer"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archiveer"
           }
         }
       }
     },
-    "action.cancel" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancel"
+    "action.cancel": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Annuleer"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuleer"
           }
         }
       }
     },
-    "action.close" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Close"
+    "action.close": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sluit"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sluit"
           }
         }
       }
     },
-    "action.delete" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete"
+    "action.delete": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verwijder"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwijder"
           }
         }
       }
     },
-    "action.done" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Done"
+    "action.done": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Klaar"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klaar"
           }
         }
       }
     },
-    "action.edit" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edit"
+    "action.edit": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bewerk"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewerk"
           }
         }
       }
     },
-    "action.ok" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
+    "action.ok": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
           }
         }
       }
     },
-    "action.removeAttachment" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Remove attachment"
+    "action.removeAttachment": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove attachment"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verwijder bijlage"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwijder bijlage"
           }
         }
       }
     },
-    "action.save" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Save"
+    "action.save": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bewaar"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaar"
           }
         }
       }
     },
-    "action.share" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Share"
+    "action.share": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Deel"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deel"
           }
         }
       }
     },
-    "action.sharePDF" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Share as PDF"
+    "action.sharePDF": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share as PDF"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Deel als PDF"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deel als PDF"
           }
         }
       }
     },
-    "action.somethingWrong" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Something's wrong"
+    "action.somethingWrong": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something's wrong"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Er is iets mis"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er is iets mis"
           }
         }
       }
     },
-    "action.unarchive" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unarchive"
+    "action.unarchive": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unarchive"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Haal uit archief"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haal uit archief"
           }
         }
       }
     },
-    "add.file" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Choose PDF or file"
+    "add.file": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose PDF or file"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kies PDF of bestand"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kies PDF of bestand"
           }
         }
       }
     },
-    "add.file.detail" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "For example an invoice from Files"
+    "add.file.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "For example an invoice from Files"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bijvoorbeeld een factuur uit Bestanden"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bijvoorbeeld een factuur uit Bestanden"
           }
         }
       }
     },
-    "add.manual" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enter manually"
+    "add.manual": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter manually"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Handmatig invullen"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Handmatig invullen"
           }
         }
       }
     },
-    "add.manual.detail" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Start without a receipt"
+    "add.manual.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start without a receipt"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zonder bon beginnen"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zonder bon beginnen"
           }
         }
       }
     },
-    "add.photo" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Choose photos"
+    "add.photo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose photos"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kies foto's"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kies foto's"
           }
         }
       }
     },
-    "add.photo.detail" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "A receipt or order confirmation from your library"
+    "add.photo.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A receipt or order confirmation from your library"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Een bon of bestelbevestiging uit je bibliotheek"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Een bon of bestelbevestiging uit je bibliotheek"
           }
         }
       }
     },
-    "add.productPhoto" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add product photo"
+    "add.productPhoto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add product photo"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Productfoto toevoegen"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Productfoto toevoegen"
           }
         }
       }
     },
-    "add.scan" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Scan receipt"
+    "add.scan": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan receipt"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Scan bon"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan bon"
           }
         }
       }
     },
-    "add.scan.detail" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "With the camera, entirely on your device"
+    "add.scan.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With the camera, entirely on your device"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Met de camera, helemaal op je toestel"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Met de camera, helemaal op je toestel"
           }
         }
       }
     },
-    "add.scan.unavailable" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Camera scanning isn't available on this device."
+    "add.scan.unavailable": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera scanning isn't available on this device."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Scannen met de camera is op dit toestel niet beschikbaar."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scannen met de camera is op dit toestel niet beschikbaar."
           }
         }
       }
     },
-    "add.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add product"
+    "add.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add product"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Product toevoegen"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Product toevoegen"
           }
         }
       }
     },
-    "archived.empty.message" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Products you archive no longer get reminders and appear here."
+    "archived.empty.message": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Products you archive no longer get reminders and appear here."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Producten die je archiveert krijgen geen herinneringen meer en staan hier."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Producten die je archiveert krijgen geen herinneringen meer en staan hier."
           }
         }
       }
     },
-    "archived.empty.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No archived products"
+    "archived.empty.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No archived products"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Geen gearchiveerde producten"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geen gearchiveerde producten"
           }
         }
       }
     },
-    "archived.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Archived"
+    "archived.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archived"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gearchiveerd"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gearchiveerd"
           }
         }
       }
     },
-    "attachment.openHint" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Opens full screen"
+    "attachment.openHint": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opens full screen"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Opent op volledig scherm"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opent op volledig scherm"
           }
         }
       }
     },
-    "attachment.other" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Other file"
+    "attachment.other": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Other file"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Overig bestand"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overig bestand"
           }
         }
       }
     },
-    "attachment.productPhoto" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Product photo"
+    "attachment.productPhoto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Product photo"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Productfoto"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Productfoto"
           }
         }
       }
     },
-    "attachment.receipt" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Receipt"
+    "attachment.receipt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Receipt"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bon"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bon"
           }
         }
       }
     },
-    "category.appliances" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Appliances"
+    "category.appliances": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appliances"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Witgoed"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Witgoed"
           }
         }
       }
     },
-    "category.bikeMobility" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bikes & mobility"
+    "category.bikeMobility": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bikes & mobility"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fiets & mobiliteit"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fiets & mobiliteit"
           }
         }
       }
     },
-    "category.clothingSports" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Clothing & sports"
+    "category.clothingSports": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clothing & sports"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kleding & sport"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kleding & sport"
           }
         }
       }
     },
-    "category.electronics" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Electronics"
+    "category.electronics": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Electronics"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Elektronica"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elektronica"
           }
         }
       }
     },
-    "category.furniture" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Furniture"
+    "category.furniture": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Furniture"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Meubels"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meubels"
           }
         }
       }
     },
-    "category.household" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Household"
+    "category.household": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Household"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Huishouden"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Huishouden"
           }
         }
       }
     },
-    "category.other" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Other"
+    "category.other": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Other"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Overig"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overig"
           }
         }
       }
     },
-    "category.phoneComputer" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Phone & computer"
+    "category.phoneComputer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phone & computer"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Telefoon & computer"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Telefoon & computer"
           }
         }
       }
     },
-    "category.tools" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tools"
+    "category.tools": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tools"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gereedschap"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gereedschap"
           }
         }
       }
     },
-    "claim.mail.bodyField" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Email text"
+    "claim.mail.bodyField": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Email text"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tekst van de e-mail"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekst van de e-mail"
           }
         }
       }
     },
-    "claim.mail.closing" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kind regards,\n[your name]"
+    "claim.mail.closing": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kind regards,\n[your name]"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Met vriendelijke groet,\n[je naam]"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Met vriendelijke groet,\n[je naam]"
           }
         }
       }
     },
-    "claim.mail.footer" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edit the text before sending. The app never sends anything itself. Attach the receipt by sharing the product."
+    "claim.mail.footer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit the text before sending. The app never sends anything itself. Attach the receipt by sharing the product."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pas de tekst aan voordat je hem verstuurt. De app verstuurt zelf niets. Voeg de bon toe als bijlage via het delen van het product."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pas de tekst aan voordat je hem verstuurt. De app verstuurt zelf niets. Voeg de bon toe als bijlage via het delen van het product."
           }
         }
       }
     },
-    "claim.mail.greeting" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dear sir or madam,"
+    "claim.mail.greeting": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dear sir or madam,"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Beste medewerker,"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beste medewerker,"
           }
         }
       }
     },
-    "claim.mail.intro %@ %@ %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "On %1$@ I bought the following product from %2$@: %3$@."
+    "claim.mail.intro %@ %@ %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On %1$@ I bought the following product from %2$@: %3$@."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Op %1$@ heb ik bij %2$@ het volgende product gekocht: %3$@."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Op %1$@ heb ik bij %2$@ het volgende product gekocht: %3$@."
           }
         }
       }
     },
-    "claim.mail.intro.noStore %@ %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "On %1$@ I bought the following product: %2$@."
+    "claim.mail.intro.noStore %@ %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On %1$@ I bought the following product: %2$@."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Op %1$@ heb ik het volgende product gekocht: %2$@."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Op %1$@ heb ik het volgende product gekocht: %2$@."
           }
         }
       }
     },
-    "claim.mail.openMail" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open in Mail"
+    "claim.mail.openMail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in Mail"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open in Mail"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in Mail"
           }
         }
       }
     },
-    "claim.mail.price %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Purchase price: %@."
+    "claim.mail.price %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purchase price: %@."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aankoopbedrag: %@."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aankoopbedrag: %@."
           }
         }
       }
     },
-    "claim.mail.problem" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unfortunately there's a problem with this product: [describe here what's wrong and since when]."
+    "claim.mail.problem": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unfortunately there's a problem with this product: [describe here what's wrong and since when]."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Helaas is er een probleem met dit product: [beschrijf hier wat er mis is en sinds wanneer]."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helaas is er een probleem met dit product: [beschrijf hier wat er mis is en sinds wanneer]."
           }
         }
       }
     },
-    "claim.mail.request" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "I'd like to ask you to look into this and let me know within a reasonable time how we can resolve it. I have the receipt at hand and am happy to send it."
+    "claim.mail.request": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I'd like to ask you to look into this and let me know within a reasonable time how we can resolve it. I have the receipt at hand and am happy to send it."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ik wil je vragen hier naar te kijken en mij binnen een redelijke termijn te laten weten hoe we dit oplossen. De bon heb ik bij de hand en stuur ik graag mee."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ik wil je vragen hier naar te kijken en mij binnen een redelijke termijn te laten weten hoe we dit oplossen. De bon heb ik bij de hand en stuur ik graag mee."
           }
         }
       }
     },
-    "claim.mail.serial %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Serial number: %@."
+    "claim.mail.serial %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serial number: %@."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Serienummer: %@."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serienummer: %@."
           }
         }
       }
     },
-    "claim.mail.share" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Share or copy the text"
+    "claim.mail.share": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share or copy the text"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Deel of kopieer de tekst"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deel of kopieer de tekst"
           }
         }
       }
     },
-    "claim.mail.subject %@ %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Complaint about %1$@, bought on %2$@"
+    "claim.mail.subject %@ %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Complaint about %1$@, bought on %2$@"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Klacht over %1$@, gekocht op %2$@"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klacht over %1$@, gekocht op %2$@"
           }
         }
       }
     },
-    "claim.mail.subjectField" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Subject"
+    "claim.mail.subjectField": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Subject"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Onderwerp"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Onderwerp"
           }
         }
       }
     },
-    "claim.mail.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Complaint email"
+    "claim.mail.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Complaint email"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Klachtmail"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klachtmail"
           }
         }
       }
     },
-    "claim.officialSource %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open %@"
+    "claim.officialSource %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open %@"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open %@"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open %@"
           }
         }
       }
     },
-    "claim.officialSource.footer" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "General information, not legal advice. Current rules are at ConsuWijzer."
+    "claim.officialSource.footer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General information, not legal advice. Current rules are at ConsuWijzer."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Algemene informatie, geen juridisch advies. De actuele regels staan bij ConsuWijzer."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algemene informatie, geen juridisch advies. De actuele regels staan bij ConsuWijzer."
           }
         }
       }
     },
-    "claim.step.accessibility %lld" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Step %lld"
+    "claim.step.accessibility %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step %lld"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Stap %lld"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stap %lld"
           }
         }
       }
     },
-    "claim.steps.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Step by step"
+    "claim.steps.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step by step"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Stappenplan"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stappenplan"
           }
         }
       }
     },
-    "claim.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "My product is broken, now what?"
+    "claim.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My product is broken, now what?"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mijn product is kapot, wat nu?"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mijn product is kapot, wat nu?"
           }
         }
       }
     },
-    "delete.message" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The product and all its attachments will be permanently deleted."
+    "delete.message": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The product and all its attachments will be permanently deleted."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Het product en alle bijlagen worden definitief verwijderd."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Het product en alle bijlagen worden definitief verwijderd."
           }
         }
       }
     },
-    "delete.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete this product?"
+    "delete.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete this product?"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dit product verwijderen?"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit product verwijderen?"
           }
         }
       }
     },
-    "deleteAll.continue" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Yes, continue"
+    "deleteAll.continue": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yes, continue"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ja, ga door"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ja, ga door"
           }
         }
       }
     },
-    "deleteAll.error.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Couldn't delete"
+    "deleteAll.error.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't delete"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verwijderen mislukt"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwijderen mislukt"
           }
         }
       }
     },
-    "deleteAll.final.confirm" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete everything"
+    "deleteAll.final.confirm": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete everything"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verwijder alles"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwijder alles"
           }
         }
       }
     },
-    "deleteAll.final.message" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "All your products, receipts and photos will be permanently deleted from this device."
+    "deleteAll.final.message": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All your products, receipts and photos will be permanently deleted from this device."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Al je producten, bonnen en foto's worden definitief van dit toestel verwijderd."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Al je producten, bonnen en foto's worden definitief van dit toestel verwijderd."
           }
         }
       }
     },
-    "deleteAll.final.messageSync" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "All your products, receipts and photos will be permanently deleted, also from your other devices via iCloud."
+    "deleteAll.final.messageSync": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All your products, receipts and photos will be permanently deleted, also from your other devices via iCloud."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Al je producten, bonnen en foto's worden definitief verwijderd, ook van je andere toestellen via iCloud."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Al je producten, bonnen en foto's worden definitief verwijderd, ook van je andere toestellen via iCloud."
           }
         }
       }
     },
-    "deleteAll.final.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Are you sure?"
+    "deleteAll.final.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Are you sure?"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Weet je het zeker?"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weet je het zeker?"
           }
         }
       }
     },
-    "deleteAll.message" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "This can't be undone. Consider making an export first."
+    "deleteAll.message": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This can't be undone. Consider making an export first."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dit kan niet ongedaan worden gemaakt. Maak eventueel eerst een export."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit kan niet ongedaan worden gemaakt. Maak eventueel eerst een export."
           }
         }
       }
     },
-    "deleteAll.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete all products and attachments?"
+    "deleteAll.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete all products and attachments?"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Alle producten en bijlagen verwijderen?"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle producten en bijlagen verwijderen?"
           }
         }
       }
     },
-    "detail.openManual" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open manual"
+    "detail.openManual": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open manual"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open handleiding"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open handleiding"
           }
         }
       }
     },
-    "detail.section.attachments" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Attachments"
+    "detail.section.attachments": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attachments"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bijlagen"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bijlagen"
           }
         }
       }
     },
-    "detail.section.data" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Details"
+    "detail.section.data": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gegevens"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gegevens"
           }
         }
       }
     },
-    "detail.section.purchase" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Purchase"
+    "detail.section.purchase": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purchase"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aankoop"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aankoop"
           }
         }
       }
     },
-    "detail.section.warranty" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Warranty"
+    "detail.section.warranty": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warranty"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Garantie"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Garantie"
           }
         }
       }
     },
-    "detail.source" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Source"
+    "detail.source": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bron"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bron"
           }
         }
       }
     },
-    "edit.section.attachments" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Attachments"
+    "edit.section.attachments": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attachments"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bijlagen"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bijlagen"
           }
         }
       }
     },
-    "edit.section.details" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Details"
+    "edit.section.details": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Overig"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overig"
           }
         }
       }
     },
-    "edit.section.product" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Product"
+    "edit.section.product": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Product"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Product"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Product"
           }
         }
       }
     },
-    "edit.section.purchase" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Purchase"
+    "edit.section.purchase": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purchase"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aankoop"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aankoop"
           }
         }
       }
     },
-    "edit.section.warranty" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Warranty"
+    "edit.section.warranty": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warranty"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Garantie"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Garantie"
           }
         }
       }
     },
-    "edit.title.edit" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edit product"
+    "edit.title.edit": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit product"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Product bewerken"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Product bewerken"
           }
         }
       }
     },
-    "edit.title.new" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "New product"
+    "edit.title.new": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New product"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nieuw product"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nieuw product"
           }
         }
       }
     },
-    "error.save.message" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your change wasn't saved. Please try again."
+    "error.save.message": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your change wasn't saved. Please try again."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Je wijziging is niet bewaard. Probeer het nog eens."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je wijziging is niet bewaard. Probeer het nog eens."
           }
         }
       }
     },
-    "error.save.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Couldn't save"
+    "error.save.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't save"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Opslaan mislukt"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opslaan mislukt"
           }
         }
       }
     },
-    "export.error.message" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Check that there's enough storage space and try again."
+    "export.error.message": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check that there's enough storage space and try again."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Controleer of er genoeg opslagruimte is en probeer het opnieuw."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Controleer of er genoeg opslagruimte is en probeer het opnieuw."
           }
         }
       }
     },
-    "export.error.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Export failed"
+    "export.error.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export failed"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Exporteren mislukt"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exporteren mislukt"
           }
         }
       }
     },
-    "export.working %lld %lld" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Working… (%1$lld of %2$lld)"
+    "export.working %lld %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Working… (%1$lld of %2$lld)"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bezig… (%1$lld van %2$lld)"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bezig… (%1$lld van %2$lld)"
           }
         }
       }
     },
-    "field.brand" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Brand"
+    "field.brand": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brand"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Merk"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Merk"
           }
         }
       }
     },
-    "field.category" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Category"
+    "field.category": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Category"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Categorie"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Categorie"
           }
         }
       }
     },
-    "field.customEndDate" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "End date"
+    "field.customEndDate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "End date"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Einddatum"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einddatum"
           }
         }
       }
     },
-    "field.endDate" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Warranty until"
+    "field.endDate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warranty until"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Garantie tot"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Garantie tot"
           }
         }
       }
     },
-    "field.extraCoverage" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Extra coverage (e.g. via credit card)"
+    "field.extraCoverage": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extra coverage (e.g. via credit card)"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Extra dekking (bijv. via creditcard)"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extra dekking (bijv. via creditcard)"
           }
         }
       }
     },
-    "field.manualURL" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Link to manual"
+    "field.manualURL": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Link to manual"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Link naar handleiding"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Link naar handleiding"
           }
         }
       }
     },
-    "field.name" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Product name"
+    "field.name": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Product name"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Productnaam"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Productnaam"
           }
         }
       }
     },
-    "field.notes" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notes"
+    "field.notes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notes"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notities"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notities"
           }
         }
       }
     },
-    "field.price" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Price (€)"
+    "field.price": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Price (€)"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bedrag (€)"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bedrag (€)"
           }
         }
       }
     },
-    "field.purchaseDate" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Purchase date"
+    "field.purchaseDate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purchase date"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aankoopdatum"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aankoopdatum"
           }
         }
       }
     },
-    "field.serialNumber" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Serial number"
+    "field.serialNumber": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serial number"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Serienummer"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serienummer"
           }
         }
       }
     },
-    "field.store" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Store"
+    "field.store": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Store"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Winkel"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Winkel"
           }
         }
       }
     },
-    "field.warrantySource" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Warranty type"
+    "field.warrantySource": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warranty type"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Soort garantie"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Soort garantie"
           }
         }
       }
     },
-    "field.warrantyTerm" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Warranty term"
+    "field.warrantyTerm": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warranty term"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Garantieduur"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Garantieduur"
           }
         }
       }
     },
-    "filter.all" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "All"
+    "filter.all": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Alles"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles"
           }
         }
       }
     },
-    "filter.allCategories" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "All categories"
+    "filter.allCategories": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All categories"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Alle categorieën"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle categorieën"
           }
         }
       }
     },
-    "filter.category" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Category"
+    "filter.category": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Category"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Categorie"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Categorie"
           }
         }
       }
     },
-    "filter.status" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Status"
+    "filter.status": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Status"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
           }
         }
       }
     },
-    "icloud.status.available" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud account available"
+    "icloud.status.available": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud account available"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud-account beschikbaar"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud-account beschikbaar"
           }
         }
       }
     },
-    "icloud.status.noAccount" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Not signed in to iCloud. The app keeps working locally."
+    "icloud.status.noAccount": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not signed in to iCloud. The app keeps working locally."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Niet ingelogd bij iCloud. De app werkt lokaal door."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niet ingelogd bij iCloud. De app werkt lokaal door."
           }
         }
       }
     },
-    "icloud.status.restricted" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud is restricted on this device. The app keeps working locally."
+    "icloud.status.restricted": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud is restricted on this device. The app keeps working locally."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud is beperkt op dit toestel. De app werkt lokaal door."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud is beperkt op dit toestel. De app werkt lokaal door."
           }
         }
       }
     },
-    "icloud.status.unknown" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud status unknown"
+    "icloud.status.unknown": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud status unknown"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud-status onbekend"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud-status onbekend"
           }
         }
       }
     },
-    "import.error.hint" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "You can still save the product without the attachment, or try again."
+    "import.error.hint": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You can still save the product without the attachment, or try again."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Je kunt het product ook zonder bijlage bewaren of het opnieuw proberen."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je kunt het product ook zonder bijlage bewaren of het opnieuw proberen."
           }
         }
       }
     },
-    "import.error.tooLarge" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "This file is too large"
+    "import.error.tooLarge": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This file is too large"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dit bestand is te groot"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit bestand is te groot"
           }
         }
       }
     },
-    "import.error.unreadable" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "This file couldn't be read"
+    "import.error.unreadable": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This file couldn't be read"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dit bestand kon niet worden gelezen"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit bestand kon niet worden gelezen"
           }
         }
       }
     },
-    "import.processing" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading receipt…"
+    "import.processing": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading receipt…"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bon wordt gelezen…"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bon wordt gelezen…"
           }
         }
       }
     },
-    "legal.claim.1.detail" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Look at the end date in the app. Many products come with two years of warranty by default; the actual term depends on the product and your situation."
+    "legal.claim.1.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Look at the end date in the app. Many products come with two years of warranty by default; the actual term depends on the product and your situation."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kijk naar de einddatum in de app. Veel producten hebben standaard twee jaar garantie; de werkelijke termijn hangt af van het product en je situatie."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kijk naar de einddatum in de app. Veel producten hebben standaard twee jaar garantie; de werkelijke termijn hangt af van het product en je situatie."
           }
         }
       }
     },
-    "legal.claim.1.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Check whether you're still covered"
+    "legal.claim.1.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check whether you're still covered"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Controleer of je nog garantie hebt"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Controleer of je nog garantie hebt"
           }
         }
       }
     },
-    "legal.claim.2.detail" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Find the receipt or invoice, take photos or a video of the problem and note the serial number. It's all in the app."
+    "legal.claim.2.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find the receipt or invoice, take photos or a video of the problem and note the serial number. It's all in the app."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zoek de bon of factuur erbij, maak foto's of een filmpje van het probleem en noteer het serienummer. Alles staat in de app."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoek de bon of factuur erbij, maak foto's of een filmpje van het probleem en noteer het serienummer. Alles staat in de app."
           }
         }
       }
     },
-    "legal.claim.2.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gather your receipt and evidence"
+    "legal.claim.2.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gather your receipt and evidence"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verzamel je bon en bewijs"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verzamel je bon en bewijs"
           }
         }
       }
     },
-    "legal.claim.3.detail" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Usually start with the store where you bought the product, not necessarily the manufacturer. An email shows what you asked and when."
+    "legal.claim.3.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usually start with the store where you bought the product, not necessarily the manufacturer. An email shows what you asked and when."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Begin meestal bij de winkel waar je het product kocht, en niet per se bij de fabrikant. Een e-mail laat zien wat je hebt gevraagd en wanneer."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begin meestal bij de winkel waar je het product kocht, en niet per se bij de fabrikant. Een e-mail laat zien wat je hebt gevraagd en wanneer."
           }
         }
       }
     },
-    "legal.claim.3.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Contact the seller"
+    "legal.claim.3.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contact the seller"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Neem contact op met de verkoper"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neem contact op met de verkoper"
           }
         }
       }
     },
-    "legal.claim.4.detail" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Explain briefly and clearly what's wrong, what you'd like (for example a repair) and give the seller a reasonable time to respond."
+    "legal.claim.4.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explain briefly and clearly what's wrong, what you'd like (for example a repair) and give the seller a reasonable time to respond."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Leg kort en duidelijk uit wat er mis is, wat je wilt (bijvoorbeeld herstel) en geef de verkoper een redelijke termijn om te reageren."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leg kort en duidelijk uit wat er mis is, wat je wilt (bijvoorbeeld herstel) en geef de verkoper een redelijke termijn om te reageren."
           }
         }
       }
     },
-    "legal.claim.4.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Describe the problem and allow a reasonable time"
+    "legal.claim.4.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Describe the problem and allow a reasonable time"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Beschrijf de klacht en geef een redelijke termijn"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beschrijf de klacht en geef een redelijke termijn"
           }
         }
       }
     },
-    "legal.claim.5.detail" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ConsuWijzer has information about your options. In a dispute, a dispute committee may be an option. Check there for current rules."
+    "legal.claim.5.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ConsuWijzer has information about your options. In a dispute, a dispute committee may be an option. Check there for current rules."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Op ConsuWijzer vind je informatie over je mogelijkheden. Bij een geschil kan een geschillencommissie een optie zijn. Kijk daar voor de actuele regels."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Op ConsuWijzer vind je informatie over je mogelijkheden. Bij een geschil kan een geschillencommissie een optie zijn. Kijk daar voor de actuele regels."
           }
         }
       }
     },
-    "legal.claim.5.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Seller refuses? Get help"
+    "legal.claim.5.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seller refuses? Get help"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Weigert de verkoper? Zoek hulp"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weigert de verkoper? Zoek hulp"
           }
         }
       }
     },
-    "legal.defaultTerm" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Many products come with two years of warranty by default; the actual term depends on the product and your situation. This is a setting, not a legal claim. General information, not legal advice. See consuwijzer.nl for current rules."
+    "legal.defaultTerm": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Many products come with two years of warranty by default; the actual term depends on the product and your situation. This is a setting, not a legal claim. General information, not legal advice. See consuwijzer.nl for current rules."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Veel producten hebben standaard twee jaar garantie; de werkelijke termijn hangt af van het product en je situatie. Dit is een instelling, geen juridische bewering. Algemene informatie, geen juridisch advies. Kijk voor de actuele regels op consuwijzer.nl."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veel producten hebben standaard twee jaar garantie; de werkelijke termijn hangt af van het product en je situatie. Dit is een instelling, geen juridische bewering. Algemene informatie, geen juridisch advies. Kijk voor de actuele regels op consuwijzer.nl."
           }
         }
       }
     },
-    "legal.generalInfo" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "General information, not legal advice."
+    "legal.generalInfo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General information, not legal advice."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Algemene informatie, geen juridisch advies."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algemene informatie, geen juridisch advies."
           }
         }
       }
     },
-    "list.empty.action" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add your first receipt"
+    "list.empty.action": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add your first receipt"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Eerste bon toevoegen"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eerste bon toevoegen"
           }
         }
       }
     },
-    "list.empty.message" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Save your first receipt and we'll keep track of the warranty for you."
+    "list.empty.message": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save your first receipt and we'll keep track of the warranty for you."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bewaar je eerste bon, dan houden wij de garantie voor je bij."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaar je eerste bon, dan houden wij de garantie voor je bij."
           }
         }
       }
     },
-    "list.empty.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No products yet"
+    "list.empty.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No products yet"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nog geen producten"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nog geen producten"
           }
         }
       }
     },
-    "onboarding.1.message" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Scan a receipt or pick a photo or PDF. The app reads the details for you and tracks when the warranty ends."
+    "onboarding.1.message": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan a receipt or pick a photo or PDF. The app reads the details for you and tracks when the warranty ends."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Scan een bon of kies een foto of PDF. De app leest de gegevens voor je en houdt bij wanneer de garantie afloopt."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan een bon of kies een foto of PDF. De app leest de gegevens voor je en houdt bij wanneer de garantie afloopt."
           }
         }
       }
     },
-    "onboarding.1.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keep your receipts in one place"
+    "onboarding.1.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep your receipts in one place"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bewaar je bonnen op één plek"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaar je bonnen op één plek"
           }
         }
       }
     },
-    "onboarding.2.message" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your data stays on your own device. No account, no ads, no tracking. If you like, you can sync via your own iCloud later."
+    "onboarding.2.message": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your data stays on your own device. No account, no ads, no tracking. If you like, you can sync via your own iCloud later."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Je gegevens blijven op je eigen toestel. Geen account, geen advertenties, geen tracking. Als je wilt kun je later synchroniseren via je eigen iCloud."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je gegevens blijven op je eigen toestel. Geen account, geen advertenties, geen tracking. Als je wilt kun je later synchroniseren via je eigen iCloud."
           }
         }
       }
     },
-    "onboarding.2.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Private and free"
+    "onboarding.2.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Private and free"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Privé en gratis"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privé en gratis"
           }
         }
       }
     },
-    "onboarding.3.message" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Choose how many days ahead you want a reminder, so you can still have a product checked. Reminders are optional."
+    "onboarding.3.message": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose how many days ahead you want a reminder, so you can still have a product checked. Reminders are optional."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kies zelf hoeveel dagen van tevoren je een melding wilt. Zo kun je een product nog laten controleren. Meldingen zijn optioneel."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kies zelf hoeveel dagen van tevoren je een melding wilt. Zo kun je een product nog laten controleren. Meldingen zijn optioneel."
           }
         }
       }
     },
-    "onboarding.3.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reminders before your warranty ends"
+    "onboarding.3.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminders before your warranty ends"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Herinneringen vóór je garantie afloopt"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herinneringen vóór je garantie afloopt"
           }
         }
       }
     },
-    "onboarding.next" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Next"
+    "onboarding.next": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verder"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verder"
           }
         }
       }
     },
-    "onboarding.skip" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Skip"
+    "onboarding.skip": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skip"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Overslaan"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overslaan"
           }
         }
       }
     },
-    "onboarding.start" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Get started"
+    "onboarding.start": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get started"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aan de slag"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aan de slag"
           }
         }
       }
-    },
-    "PDF" : {
-
     },
-    "pdf.extraCoverage" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Extra coverage"
+    "PDF": {},
+    "pdf.extraCoverage": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extra coverage"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Extra dekking"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extra dekking"
           }
         }
       }
     },
-    "pdf.footer %@ %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Made with %1$@ on %2$@"
+    "pdf.footer %@ %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Made with %1$@ on %2$@"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gemaakt met %1$@ op %2$@"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gemaakt met %1$@ op %2$@"
           }
         }
       }
     },
-    "primer.accept" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Yes, remind me"
+    "primer.accept": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yes, remind me"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ja, herinner mij"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ja, herinner mij"
           }
         }
       }
     },
-    "primer.decline" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Not now"
+    "primer.decline": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not now"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Niet nu"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niet nu"
           }
         }
       }
     },
-    "primer.message" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "We can send you a reminder before a product's warranty ends, so you can still have it checked. Reminders come from your own device only."
+    "primer.message": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We can send you a reminder before a product's warranty ends, so you can still have it checked. Reminders come from your own device only."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "We kunnen je een melding sturen voordat de garantie van een product afloopt, zodat je het nog kunt laten controleren. De meldingen komen alleen van je eigen toestel."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We kunnen je een melding sturen voordat de garantie van een product afloopt, zodat je het nog kunt laten controleren. De meldingen komen alleen van je eigen toestel."
           }
         }
       }
     },
-    "primer.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Remind you about your warranty?"
+    "primer.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remind you about your warranty?"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Herinneren aan je garantie?"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herinneren aan je garantie?"
           }
         }
       }
     },
-    "recognition.banner" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recognized from your receipt (highlighted). Check the details and adjust where needed; nothing is saved until you tap Save."
+    "recognition.banner": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recognized from your receipt (highlighted). Check the details and adjust where needed; nothing is saved until you tap Save."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Herkend van je bon (gemarkeerd). Controleer de gegevens en pas aan waar nodig; er wordt niets bewaard voordat jij op Bewaar tikt."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herkend van je bon (gemarkeerd). Controleer de gegevens en pas aan waar nodig; er wordt niets bewaard voordat jij op Bewaar tikt."
           }
         }
       }
     },
-    "recognition.failed" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "We couldn't recognize any text on your receipt. Please fill in the details yourself; the receipt will still be saved."
+    "recognition.failed": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We couldn't recognize any text on your receipt. Please fill in the details yourself; the receipt will still be saved."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "We konden geen tekst op je bon herkennen. Vul de gegevens zelf in; de bon wordt wel bewaard."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We konden geen tekst op je bon herkennen. Vul de gegevens zelf in; de bon wordt wel bewaard."
           }
         }
       }
     },
-    "recognition.hint" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recognized from your receipt"
+    "recognition.hint": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recognized from your receipt"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Herkend van je bon"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herkend van je bon"
           }
         }
       }
     },
-    "recognition.hint.low" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recognized from your receipt, but not certain. Please check this field."
+    "recognition.hint.low": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recognized from your receipt, but not certain. Please check this field."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Herkend van je bon, maar niet zeker. Controleer dit veld."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herkend van je bon, maar niet zeker. Controleer dit veld."
           }
         }
       }
     },
-    "recognition.otherNames" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Other possible names"
+    "recognition.otherNames": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Other possible names"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Andere mogelijke namen"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Andere mogelijke namen"
           }
         }
       }
     },
-    "remaining.days %lld" : {
-      "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld day left"
+    "remaining.days %lld": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld day left"
                 }
               },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld days left"
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld days left"
                 }
               }
             }
           }
         },
-        "nl" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "nog %lld dag"
+        "nl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "nog %lld dag"
                 }
               },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "nog %lld dagen"
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "nog %lld dagen"
                 }
               }
             }
@@ -2607,191 +2603,55 @@
         }
       }
     },
-    "remaining.expiredOn %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Expired on %@"
+    "remaining.expiredOn %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Expired on %@"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verlopen op %@"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verlopen op %@"
           }
         }
       }
     },
-    "remaining.months %lld" : {
-      "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld month left"
+    "remaining.months %lld": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld month left"
                 }
               },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld months left"
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld months left"
                 }
               }
             }
           }
         },
-        "nl" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "nog %lld maand"
+        "nl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "nog %lld maand"
                 }
               },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "nog %lld maanden"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "remaining.today" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Expires today"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Loopt vandaag af"
-          }
-        }
-      }
-    },
-    "reminder.body.one %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The warranty on your %@ ends tomorrow. Is everything still working? Check it now."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "De garantie op je %@ loopt morgen af. Werkt alles nog goed? Controleer het nu nog."
-          }
-        }
-      }
-    },
-    "reminder.body.other %@ %lld" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The warranty on your %1$@ ends in %2$lld days. Is everything still working? Check it now."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "De garantie op je %1$@ loopt over %2$lld dagen af. Werkt alles nog goed? Controleer het nu nog."
-          }
-        }
-      }
-    },
-    "search.prompt" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Search name, brand, store or receipt"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zoek op naam, merk, winkel of bon"
-          }
-        }
-      }
-    },
-    "settings.about" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "About this app"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Over deze app"
-          }
-        }
-      }
-    },
-    "settings.archived" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Archived products"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gearchiveerde producten"
-          }
-        }
-      }
-    },
-    "settings.daysBefore %lld" : {
-      "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld day before"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld days before"
-                }
-              }
-            }
-          }
-        },
-        "nl" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld dag van tevoren"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld dagen van tevoren"
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "nog %lld maanden"
                 }
               }
             }
@@ -2799,503 +2659,135 @@
         }
       }
     },
-    "settings.defaultTerm" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Default warranty term"
+    "remaining.today": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Expires today"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Standaard garantieduur"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loopt vandaag af"
           }
         }
       }
     },
-    "settings.deleteAll" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete everything"
+    "reminder.body.one %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The warranty on your %@ ends tomorrow. Is everything still working? Check it now."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Alles verwijderen"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De garantie op je %@ loopt morgen af. Werkt alles nog goed? Controleer het nu nog."
           }
         }
       }
     },
-    "settings.exportAll" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Export all data"
+    "reminder.body.other %@ %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The warranty on your %1$@ ends in %2$lld days. Is everything still working? Check it now."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Exporteer alle gegevens"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De garantie op je %1$@ loopt over %2$lld dagen af. Werkt alles nog goed? Controleer het nu nog."
           }
         }
       }
     },
-    "settings.exportAll.footer" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Creates a zip with a JSON and CSV file of all your products plus all attachments, so you can always take your data with you."
+    "search.prompt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search name, brand, store or receipt"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Maakt een zip met een JSON- en CSV-bestand van al je producten plus alle bijlagen. Zo neem je je gegevens altijd mee."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoek op naam, merk, winkel of bon"
           }
         }
       }
     },
-    "settings.iCloud" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sync via iCloud"
+    "settings.about": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About this app"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Synchroniseer via iCloud"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Over deze app"
           }
         }
       }
     },
-    "settings.iCloud.fellBack" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Syncing couldn't start. The app keeps working locally; check your iCloud settings."
+    "settings.archived": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archived products"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Synchronisatie kon niet starten. De app werkt gewoon lokaal door; controleer je iCloud-instellingen."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gearchiveerde producten"
           }
         }
       }
     },
-    "settings.iCloud.footer" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Optional. Your data then goes to your own private iCloud storage so it's also on your other devices. We have no server and can't see your data. A change takes effect after restarting the app."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Optioneel. Je gegevens gaan dan naar je eigen, privé iCloud-opslag, zodat ze ook op je andere toestellen staan. Wij hebben geen server en kunnen je gegevens niet zien. Een wijziging werkt na het opnieuw opstarten van de app."
-          }
-        }
-      }
-    },
-    "settings.iCloud.restartOff" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fully close and reopen the app to stop syncing."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sluit de app helemaal af en open hem opnieuw om synchronisatie te stoppen."
-          }
-        }
-      }
-    },
-    "settings.iCloud.restartOn" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fully close and reopen the app to start syncing."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sluit de app helemaal af en open hem opnieuw om synchronisatie te starten."
-          }
-        }
-      }
-    },
-    "settings.leadDays" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Remind me"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Herinner mij"
-          }
-        }
-      }
-    },
-    "settings.openSystemSettings" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open system settings"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open systeeminstellingen"
-          }
-        }
-      }
-    },
-    "settings.reminders" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reminders"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Herinneringen"
-          }
-        }
-      }
-    },
-    "settings.reminders.denied" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notifications are turned off for this app. Turn them on in system settings to get reminders. The app works without them."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Meldingen staan uit voor deze app. Zet ze aan in de systeeminstellingen om herinneringen te krijgen. De app werkt ook zonder."
-          }
-        }
-      }
-    },
-    "settings.reminders.footer" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reminders are scheduled on your device only. Nothing is sent to a server."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Meldingen worden alleen op je eigen toestel ingepland. Er wordt niets naar een server gestuurd."
-          }
-        }
-      }
-    },
-    "settings.secondReminder" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Also one week before"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ook een week van tevoren"
-          }
-        }
-      }
-    },
-    "settings.section.data" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your data"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gegevens"
-          }
-        }
-      }
-    },
-    "settings.section.iCloud" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud sync"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud-synchronisatie"
-          }
-        }
-      }
-    },
-    "settings.section.reminders" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reminders"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Herinneringen"
-          }
-        }
-      }
-    },
-    "settings.section.warranty" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Warranty"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Garantie"
-          }
-        }
-      }
-    },
-    "settings.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Settings"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Instellingen"
-          }
-        }
-      }
-    },
-    "sort.endDate" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "End date"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Einddatum"
-          }
-        }
-      }
-    },
-    "sort.name" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Name"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Naam"
-          }
-        }
-      }
-    },
-    "sort.purchaseDate" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Purchase date"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aankoopdatum"
-          }
-        }
-      }
-    },
-    "sort.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sort"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sorteren"
-          }
-        }
-      }
-    },
-    "spotlight.until %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Warranty until %@"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Garantie tot %@"
-          }
-        }
-      }
-    },
-    "status.covered" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Covered"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gedekt"
-          }
-        }
-      }
-    },
-    "status.expired" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Expired"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verlopen"
-          }
-        }
-      }
-    },
-    "status.expiringSoon" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Expiring soon"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bijna verlopen"
-          }
-        }
-      }
-    },
-    "term.custom" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Custom end date"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Eigen einddatum"
-          }
-        }
-      }
-    },
-    "term.months %lld" : {
-      "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld month"
+    "settings.daysBefore %lld": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld day before"
                 }
               },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld months"
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld days before"
                 }
               }
             }
           }
         },
-        "nl" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld maand"
+        "nl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dag van tevoren"
                 }
               },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld maanden"
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dagen van tevoren"
                 }
               }
             }
@@ -3303,150 +2795,654 @@
         }
       }
     },
-    "viewer.unavailable" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "This file can't be shown"
+    "settings.defaultTerm": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default warranty term"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dit bestand kan niet worden getoond"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standaard garantieduur"
           }
         }
       }
     },
-    "warning.purchaseInFuture" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The purchase date is in the future. Is that right?"
+    "settings.deleteAll": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete everything"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "De aankoopdatum ligt in de toekomst. Klopt dat?"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles verwijderen"
           }
         }
       }
     },
-    "warrantySource.default" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Default warranty"
+    "settings.exportAll": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export all data"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Standaard garantie"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exporteer alle gegevens"
           }
         }
       }
     },
-    "warrantySource.manual" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Set manually"
+    "settings.exportAll.footer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Creates a zip with a JSON and CSV file of all your products plus all attachments, so you can always take your data with you."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Handmatig ingesteld"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maakt een zip met een JSON- en CSV-bestand van al je producten plus alle bijlagen. Zo neem je je gegevens altijd mee."
           }
         }
       }
     },
-    "warrantySource.manufacturer" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Manufacturer warranty"
+    "settings.iCloud": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync via iCloud"
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fabrieksgarantie"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchroniseer via iCloud"
           }
         }
       }
     },
-    "widget.description" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Shows which warranty ends first."
+    "settings.iCloud.fellBack": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syncing couldn't start. The app keeps working locally; check your iCloud settings."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Toont welke garantie het eerst afloopt."
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchronisatie kon niet starten. De app werkt gewoon lokaal door; controleer je iCloud-instellingen."
           }
         }
       }
     },
-    "widget.empty" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No products with active warranty"
+    "settings.iCloud.footer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optional. Your data then goes to your own private iCloud storage so it's also on your other devices. We have no server and can't see your data. A change takes effect after restarting the app."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Geen producten met lopende garantie"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optioneel. Je gegevens gaan dan naar je eigen, privé iCloud-opslag, zodat ze ook op je andere toestellen staan. Wij hebben geen server en kunnen je gegevens niet zien. Een wijziging werkt na het opnieuw opstarten van de app."
           }
         }
       }
     },
-    "widget.name" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Next warranty"
+    "settings.iCloud.restartOff": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fully close and reopen the app to stop syncing."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Eerstvolgende garantie"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sluit de app helemaal af en open hem opnieuw om synchronisatie te stoppen."
           }
         }
       }
     },
-    "widget.next" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Next warranty to end"
+    "settings.iCloud.restartOn": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fully close and reopen the app to start syncing."
           }
         },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Eerstvolgende garantie"
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sluit de app helemaal af en open hem opnieuw om synchronisatie te starten."
+          }
+        }
+      }
+    },
+    "settings.leadDays": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remind me"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herinner mij"
+          }
+        }
+      }
+    },
+    "settings.openSystemSettings": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open system settings"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open systeeminstellingen"
+          }
+        }
+      }
+    },
+    "settings.reminders": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminders"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herinneringen"
+          }
+        }
+      }
+    },
+    "settings.reminders.denied": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications are turned off for this app. Turn them on in system settings to get reminders. The app works without them."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meldingen staan uit voor deze app. Zet ze aan in de systeeminstellingen om herinneringen te krijgen. De app werkt ook zonder."
+          }
+        }
+      }
+    },
+    "settings.reminders.footer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminders are scheduled on your device only. Nothing is sent to a server."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meldingen worden alleen op je eigen toestel ingepland. Er wordt niets naar een server gestuurd."
+          }
+        }
+      }
+    },
+    "settings.secondReminder": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Also one week before"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ook een week van tevoren"
+          }
+        }
+      }
+    },
+    "settings.section.data": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your data"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gegevens"
+          }
+        }
+      }
+    },
+    "settings.section.iCloud": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud sync"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud-synchronisatie"
+          }
+        }
+      }
+    },
+    "settings.section.reminders": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminders"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herinneringen"
+          }
+        }
+      }
+    },
+    "settings.section.warranty": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warranty"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Garantie"
+          }
+        }
+      }
+    },
+    "settings.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instellingen"
+          }
+        }
+      }
+    },
+    "sort.endDate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "End date"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einddatum"
+          }
+        }
+      }
+    },
+    "sort.name": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naam"
+          }
+        }
+      }
+    },
+    "sort.purchaseDate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purchase date"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aankoopdatum"
+          }
+        }
+      }
+    },
+    "sort.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sorteren"
+          }
+        }
+      }
+    },
+    "spotlight.until %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warranty until %@"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Garantie tot %@"
+          }
+        }
+      }
+    },
+    "status.covered": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Covered"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gedekt"
+          }
+        }
+      }
+    },
+    "status.expired": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Expired"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verlopen"
+          }
+        }
+      }
+    },
+    "status.expiringSoon": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Expiring soon"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bijna verlopen"
+          }
+        }
+      }
+    },
+    "term.custom": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom end date"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eigen einddatum"
+          }
+        }
+      }
+    },
+    "term.months %lld": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld month"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld months"
+                }
+              }
+            }
+          }
+        },
+        "nl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld maand"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld maanden"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "viewer.unavailable": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This file can't be shown"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit bestand kan niet worden getoond"
+          }
+        }
+      }
+    },
+    "warning.purchaseInFuture": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The purchase date is in the future. Is that right?"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De aankoopdatum ligt in de toekomst. Klopt dat?"
+          }
+        }
+      }
+    },
+    "warrantySource.default": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default warranty"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standaard garantie"
+          }
+        }
+      }
+    },
+    "warrantySource.manual": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set manually"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Handmatig ingesteld"
+          }
+        }
+      }
+    },
+    "warrantySource.manufacturer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manufacturer warranty"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fabrieksgarantie"
+          }
+        }
+      }
+    },
+    "widget.description": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shows which warranty ends first."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toont welke garantie het eerst afloopt."
+          }
+        }
+      }
+    },
+    "widget.empty": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No products with active warranty"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geen producten met lopende garantie"
+          }
+        }
+      }
+    },
+    "widget.name": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next warranty"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eerstvolgende garantie"
+          }
+        }
+      }
+    },
+    "widget.next": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next warranty to end"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eerstvolgende garantie"
           }
         }
       }
     }
   },
-  "version" : "1.0"
+  "version": "1.0"
 }

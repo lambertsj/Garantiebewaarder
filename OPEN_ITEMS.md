@@ -14,11 +14,12 @@ Zoek ze met `grep -rn "TODO(user)" Garantiebewaarder project.yml`.
 | `LegalContent.claimSteps` | Controleer elke stap, vooral 3 t/m 5: "begin meestal bij de verkoper, niet per se bij de fabrikant", "redelijke termijn" (er wordt geen aantal dagen genoemd), verwijzing naar ConsuWijzer en een geschillencommissie. Gekoppelde sleutels: `legal.claim.1…5.title/detail` in `Localizable.xcstrings`. |
 | `LegalContent.officialSourceURL` | Controleer of `https://www.consuwijzer.nl` en de naam "ConsuWijzer" nog actueel zijn. |
 | Klachtmail-sjabloon (`claim.mail.*` in de catalogus) | Tekst nalezen (algemeen gehouden; geen wettelijke claims). |
-| `AppInfo.feedbackEmail` | Nu `feedback@example.com`; vul je eigen adres in. |
 | `Shared/AppGroup.swift` | App Group-id (`group.com.jeroenlamberts.garantiebewaarder`) moet bij je developer-account passen. |
 | `Models/PersistenceController.swift` | iCloud-container-id (`iCloud.com.jeroenlamberts.garantiebewaarder`) moet bij je account passen (ook in `project.yml` onder entitlements). |
 
 ## 2. Overig wat jij moet instellen
+
+> **Klaar voor indienen:** alle teksten en formulierantwoorden staan in `AppStore/METADATA.md`; archiveren en uploaden gaat met `Scripts/release.sh`. Versie is 1.0 (1). Feedback loopt via GitHub (`AppInfo.feedbackURL`), er is geen e-mailadres nodig.
 
 - **Bundle-identifiers** (aanname): `com.jeroenlamberts.garantiebewaarder` (+ `.share`, `.widget`, `.tests`, `.uitests`). Wijzig in `project.yml` en in de entitlements.
 - **Signing**: `DEVELOPMENT_TEAM` staat leeg in `project.yml`; zet je team-id. Daarna in het developer-portal: App Group, iCloud (CloudKit-container) en Push Notifications voor de app, en App Group voor de Share Extension en de widget.

@@ -3,8 +3,8 @@ import Foundation
 /// Eén plek voor de naam van de app. De weergavenaam wordt ingesteld in
 /// `project.yml` (CFBundleDisplayName).
 enum AppInfo {
-    /// TODO(user): vul je eigen feedback-adres in (komt in de mailto-link bij "Over deze app").
-    static let feedbackEmail = "feedback@example.com"
+    /// Feedback en ondersteuning lopen via GitHub (geen e-mailadres, geen account in de app nodig).
+    static let feedbackURL = URL(string: "https://github.com/lambertsj/Garantiebewaarder/issues")
 
     static let fallbackName = "Garantiebewaarder"
 

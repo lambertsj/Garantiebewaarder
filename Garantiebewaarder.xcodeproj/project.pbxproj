@@ -814,7 +814,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = GarantiebewaarderWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeroenlamberts.garantiebewaarder.widget;
 				PRODUCT_NAME = GarantiebewaarderWidget;
 				SKIP_INSTALL = YES;
@@ -830,7 +830,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = GarantiebewaarderShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeroenlamberts.garantiebewaarder.share;
 				PRODUCT_NAME = GarantiebewaarderShare;
 				SKIP_INSTALL = YES;
@@ -872,7 +872,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = GarantiebewaarderShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeroenlamberts.garantiebewaarder.share;
 				PRODUCT_NAME = GarantiebewaarderShare;
 				SKIP_INSTALL = YES;
@@ -901,7 +901,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = Garantiebewaarder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeroenlamberts.garantiebewaarder;
 				PRODUCT_NAME = Garantiebewaarder;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -926,7 +926,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = GarantiebewaarderWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeroenlamberts.garantiebewaarder.widget;
 				PRODUCT_NAME = GarantiebewaarderWidget;
 				SKIP_INSTALL = YES;
@@ -963,7 +963,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = Garantiebewaarder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeroenlamberts.garantiebewaarder;
 				PRODUCT_NAME = Garantiebewaarder;
 				SWIFT_EMIT_LOC_STRINGS = YES;

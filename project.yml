@@ -51,7 +51,7 @@ targets:
       base:
         PRODUCT_NAME: Garantiebewaarder
         PRODUCT_BUNDLE_IDENTIFIER: com.jeroenlamberts.garantiebewaarder
-        MARKETING_VERSION: "0.1"
+        MARKETING_VERSION: "1.0"
         CURRENT_PROJECT_VERSION: "1"
         TARGETED_DEVICE_FAMILY: "1"
         LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks"
@@ -99,7 +99,7 @@ targets:
       base:
         PRODUCT_NAME: GarantiebewaarderShare
         PRODUCT_BUNDLE_IDENTIFIER: com.jeroenlamberts.garantiebewaarder.share
-        MARKETING_VERSION: "0.1"
+        MARKETING_VERSION: "1.0"
         CURRENT_PROJECT_VERSION: "1"
         TARGETED_DEVICE_FAMILY: "1"
         LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks"
@@ -143,7 +143,7 @@ targets:
       base:
         PRODUCT_NAME: GarantiebewaarderWidget
         PRODUCT_BUNDLE_IDENTIFIER: com.jeroenlamberts.garantiebewaarder.widget
-        MARKETING_VERSION: "0.1"
+        MARKETING_VERSION: "1.0"
         CURRENT_PROJECT_VERSION: "1"
         TARGETED_DEVICE_FAMILY: "1"
         LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks"
